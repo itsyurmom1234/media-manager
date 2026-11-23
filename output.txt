@@ -1,0 +1,52 @@
+{"cleared":true}root@Shurikloud:/mnt/user/PC/docker stuff/media-manager# docker compose logs download-worker --tail 50
+download-worker-1  |          ^^^^^^^^^^^^^
+download-worker-1  |   File "/usr/local/lib/python3.12/site-packages/rq/job.py", line 1280, in perform
+download-worker-1  |     self._result = self._execute()
+download-worker-1  |                    ^^^^^^^^^^^^^^^
+download-worker-1  |   File "/usr/local/lib/python3.12/site-packages/rq/job.py", line 1317, in _execute
+download-worker-1  |     result = self.func(*self.args, **self.kwargs)
+download-worker-1  |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+download-worker-1  |   File "/app/app/tasks.py", line 127, in run_download
+download-worker-1  |     outtmpl = _build_outtmpl(job, session)
+download-worker-1  |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+download-worker-1  |   File "/app/app/tasks.py", line 56, in _build_outtmpl
+download-worker-1  |     os.makedirs(season_dir, exist_ok=True)
+download-worker-1  |   File "<frozen os>", line 215, in makedirs
+download-worker-1  |   File "<frozen os>", line 225, in makedirs
+download-worker-1  | PermissionError: [Errno 13] Permission denied: '/shows/small watch list'
+download-worker-1  | 
+download-worker-1  | 14:32:05 downloads: app.tasks.run_download('631866fe-1148-4e95-9048-818cb8bb1a51', 'https://www.youtube.com/watch?v=bhNENKrWtZo') (631866fe-1148-4e95-9048-818cb8bb1a51)
+download-worker-1  | 14:32:08 [Job 631866fe-1148-4e95-9048-818cb8bb1a51]: exception raised while executing (app.tasks.run_download)
+download-worker-1  | Traceback (most recent call last):
+download-worker-1  |   File "/usr/local/lib/python3.12/site-packages/rq/worker.py", line 1430, in perform_job
+download-worker-1  |     rv = job.perform()
+download-worker-1  |          ^^^^^^^^^^^^^
+download-worker-1  |   File "/usr/local/lib/python3.12/site-packages/rq/job.py", line 1280, in perform
+download-worker-1  |     self._result = self._execute()
+download-worker-1  |                    ^^^^^^^^^^^^^^^
+download-worker-1  |   File "/usr/local/lib/python3.12/site-packages/rq/job.py", line 1317, in _execute
+download-worker-1  |     result = self.func(*self.args, **self.kwargs)
+download-worker-1  |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+download-worker-1  |   File "/app/app/tasks.py", line 127, in run_download
+download-worker-1  |     outtmpl = _build_outtmpl(job, session)
+download-worker-1  |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+download-worker-1  |   File "/app/app/tasks.py", line 56, in _build_outtmpl
+download-worker-1  |     os.makedirs(season_dir, exist_ok=True)
+download-worker-1  |   File "<frozen os>", line 215, in makedirs
+download-worker-1  |   File "<frozen os>", line 225, in makedirs
+download-worker-1  | PermissionError: [Errno 13] Permission denied: '/shows/small watch list'
+download-worker-1  | 
+download-worker-1  | 14:38:53 Cleaning registries for queue: downloads
+download-worker-1  | 14:40:12 downloads: app.tasks.run_download('55e2fffb-cd00-41d2-a2a4-8a0ed0e1ec6f', 'https://www.youtube.com/watch?v=ZORciJStjdU') (55e2fffb-cd00-41d2-a2a4-8a0ed0e1ec6f)
+download-worker-1  | 14:40:12 downloads: Job OK (55e2fffb-cd00-41d2-a2a4-8a0ed0e1ec6f)
+download-worker-1  | 14:40:12 Result is kept for 500 seconds
+download-worker-1  | 14:40:12 downloads: app.tasks.run_download('03bfe19d-378e-4648-a410-0055f492d0d2', 'https://www.youtube.com/watch?v=6f-XDgJw8b8') (03bfe19d-378e-4648-a410-0055f492d0d2)
+download-worker-1  | 14:40:12 downloads: Job OK (03bfe19d-378e-4648-a410-0055f492d0d2)
+download-worker-1  | 14:40:12 Result is kept for 500 seconds
+download-worker-1  | 14:40:12 downloads: app.tasks.run_download('722a3ace-0213-4469-a3eb-9c7cbdcf76fa', 'https://www.youtube.com/watch?v=0LWXxJIG5oU') (722a3ace-0213-4469-a3eb-9c7cbdcf76fa)
+download-worker-1  | 14:40:12 downloads: Job OK (722a3ace-0213-4469-a3eb-9c7cbdcf76fa)
+download-worker-1  | 14:40:12 Result is kept for 500 seconds
+download-worker-1  | 14:40:12 downloads: app.tasks.run_download('a448f96b-a24d-40bc-8c61-f861c801c1a1', 'https://www.youtube.com/watch?v=bhNENKrWtZo') (a448f96b-a24d-40bc-8c61-f861c801c1a1)
+download-worker-1  | 14:40:12 downloads: Job OK (a448f96b-a24d-40bc-8c61-f861c801c1a1)
+download-worker-1  | 14:40:12 Result is kept for 500 seconds
+root@Shurikloud:/mnt/user/PC/docker stuff/media-manager# 

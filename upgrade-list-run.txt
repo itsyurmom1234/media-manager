@@ -1,0 +1,84 @@
+=============== xczfdsafdsf
+ Container media-manager-redis-1  Running
+ Container media-manager-postgres-1  Running
+[11:52:54] Show folder: xczfdsafdsf
+[11:52:54] Probing 6 local files...
+[11:53:44] 6 of 6 files are below 1000p
+[11:54:03] Playlist 'xczfdsafdsf' has 6 entries
+[11:54:03] Matched 6, unmatched 0
+[11:54:03]   E  1  360p  [title]  x26A28DoT-w  Was I Wrong About the Macbook Neo?
+[11:54:03]   E  2  360p  [title]  MK12g18m8ns  Our Beef with iFixit, Brought to You by iFixit
+[11:54:03]   E  3  360p  [title]  Jnoj1B7F_pM  Mario Party with Too Many Rules
+[11:54:03]   E  4  360p  [title]  ivLvsTnp9fI  A Petabyte in the Palm of My Hand - Kioxia Factory Tour
+[11:54:03]   E  5  320p  [title]  1aBvGJHetUM  Building the Lowest Rated PC
+[11:54:03]   E  6  360p  [title]  pHEyjKfRhDA  Have Apps Ruined Dating?
+[11:54:03] Write check OK in 1 folder(s)
+[11:54:03] DRY RUN - nothing downloaded or changed. Re-run with --apply to upgrade.
+
+=============== small watch list
+ Container media-manager-postgres-1  Running
+ Container media-manager-redis-1  Running
+[11:54:24] Show folder: small watch list
+[11:54:24] Probing 4 local files...
+[11:54:34] 4 of 4 files are below 1000p
+[11:54:35] Playlist 'small watch list' has 4 entries
+[11:54:35] Matched 4, unmatched 0
+[11:54:35]   E  1  360p  [title]  ZORciJStjdU  I can securely erase this computer from anywhere!
+[11:54:35]   E  2  360p  [title]  6f-XDgJw8b8  The Pokémon Game You Haven’t Played - Pokemon Stern Pinball
+[11:54:35]   E  3  360p  [title]  0LWXxJIG5oU  the city called me after this video
+[11:54:35]   E  4  360p  [title]  bhNENKrWtZo  Every Pokémon I Would Eat
+[11:54:35] Write check OK in 1 folder(s)
+[11:54:35] DRY RUN - nothing downloaded or changed. Re-run with --apply to upgrade.
+
+=============== Random
+ Container media-manager-redis-1  Running
+ Container media-manager-postgres-1  Running
+[11:54:50] Show folder: Random
+[11:54:50] Probing 3 local files...
+[11:54:53] 3 of 3 files are below 1000p
+[11:54:54] Playlist 'Random' has 3 entries
+[11:54:54] Matched 3, unmatched 0
+[11:54:54]   E  1  360p  [title]  5li0FFNocu8  Pokemon SWORD : DanTDM Edition!
+[11:54:54]   E  2  360p  [title]  LE8tb_yv7CQ  THE DANTDM BOXING MATCH!!!
+[11:54:54]   E  3  360p  [title]  NFTemk99fLU  Pokémon UltraSun & UltraMoon - Ultra Necrozma Battle Music (
+[11:54:54] Write check OK in 1 folder(s)
+[11:54:54] DRY RUN - nothing downloaded or changed. Re-run with --apply to upgrade.
+
+=============== degoogle your life
+ Container media-manager-redis-1  Running
+ Container media-manager-postgres-1  Running
+[11:55:07] Show folder: degoogle your life
+[11:55:07] Probing 2 local files...
+[11:55:07] 2 of 2 files are below 1000p
+[11:55:08] Playlist 'degoogle your life' has 2 entries
+[11:55:08] Matched 2, unmatched 0
+[11:55:08]   E  1  320p  [title]  YnSv8ylLfPw  De-Google Your Life - Part 1: Start With Chrome
+[11:55:08]   E  2  360p  [title]  YaMc64IAC8g  DeGoogle Your Life Pt 2, Become Ad Free, 1080p (no freeze@ 1
+[11:55:08] Write check OK in 1 folder(s)
+[11:55:08] DRY RUN - nothing downloaded or changed. Re-run with --apply to upgrade.
+
+=============== Nice Rack
+ Container media-manager-redis-1  Running
+ Container media-manager-postgres-1  Running
+[11:55:21] Show folder: Nice Rack
+[11:55:21] Probing 2 local files...
+[11:55:21] 2 of 2 files are below 1000p
+[11:55:22] Playlist 'Nice Rack' has 3 entries
+[11:55:22] Matched 2, unmatched 0
+[11:55:22]   E  1  360p  [title]  q1SU3fv1g90  I Bought a Data Center Server Rack for My Apartment...
+[11:55:22]   E  2  360p  [title]  HTSSUbuOtOU  I Finished My Server Rack!
+[11:55:22] Write check OK in 1 folder(s)
+[11:55:22] DRY RUN - nothing downloaded or changed. Re-run with --apply to upgrade.
+
+=============== cliare sioban sims
+ Container media-manager-redis-1  Running
+ Container media-manager-postgres-1  Running
+[11:55:34] Show folder: cliare sioban sims
+[11:55:34] Probing 701 local files...
+[12:12:21] 1 of 701 files are below 1000p
+[12:12:39] Playlist 'claire sioban sims' has 702 entries
+[12:12:39] Matched 1, unmatched 0
+[12:12:39]   E399  720p  [title]  aiJUxjkb1co  We got STRAIGHT A+!? (The Sims 4 DISCOVER UNIVERSITY! 👩🏼‍🎓 #
+[12:12:39] Write check OK in 1 folder(s)
+[12:12:39] DRY RUN - nothing downloaded or changed. Re-run with --apply to upgrade.
+

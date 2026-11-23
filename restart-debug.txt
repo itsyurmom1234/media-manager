@@ -1,0 +1,30 @@
+----- docker compose ps -a -----
+NAME                              IMAGE                           COMMAND                  SERVICE           CREATED       STATUS                 PORTS
+media-manager-download-api-1      media-manager-download-api      "uvicorn app.main:ap…"   download-api      2 weeks ago   Created                
+media-manager-download-worker-1   media-manager-download-worker   "python -m app.worker"   download-worker   2 weeks ago   Created                
+media-manager-gateway-1           traefik:v3.6                    "/entrypoint.sh --ap…"   gateway           2 weeks ago   Up 2 weeks             0.0.0.0:8090->80/tcp, :::8090->80/tcp, 0.0.0.0:8091->8080/tcp, :::8091->8080/tcp
+media-manager-postgres-1          postgres:16-alpine              "docker-entrypoint.s…"   postgres          2 weeks ago   Up 2 weeks (healthy)   5432/tcp
+media-manager-redis-1             redis:7-alpine                  "docker-entrypoint.s…"   redis             2 weeks ago   Up 2 weeks (healthy)   6379/tcp
+media-manager-web-1               nginx:alpine                    "/docker-entrypoint.…"   web               2 weeks ago   Up 2 weeks             80/tcp
+----- docker compose up -d -----
+ Container media-manager-gateway-1  Running
+ Container media-manager-redis-1  Running
+ Container media-manager-postgres-1  Running
+ Container media-manager-web-1  Recreate
+ Container media-manager-web-1  Recreated
+ Container media-manager-redis-1  Waiting
+ Container media-manager-web-1  Starting
+ Container media-manager-postgres-1  Waiting
+ Container media-manager-redis-1  Waiting
+ Container media-manager-postgres-1  Waiting
+ Container media-manager-postgres-1  Healthy
+ Container media-manager-postgres-1  Healthy
+ Container media-manager-redis-1  Healthy
+ Container media-manager-redis-1  Healthy
+ Container media-manager-download-api-1  Starting
+ Container media-manager-download-worker-1  Starting
+ Container media-manager-web-1  Started
+ Container media-manager-download-api-1  Started
+ Container media-manager-download-worker-1  Started
+----- download-api logs after up -----
+----- download-worker logs after up -----

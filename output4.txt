@@ -1,0 +1,184 @@
+import os
+import time
+import random
+import subprocess
+import datetime as dt
+from xml.sax.saxutils import escape
+
+from yt_dlp import YoutubeDL
+from yt_dlp.utils import sanitize_filename
+
+from app.db import get_session, Job, Playlist
+
+DOWNLOAD_DIR = os.environ.get("DOWNLOAD_DIR", "/downloads")
+SHOWS_DIR = os.environ.get("SHOWS_DIR", "/shows")
+
+MAX_ATTEMPTS = 3
+RETRYABLE_MARKERS = ("403", "forbidden", "429", "too many requests")
+
+# Poster-generation script, run once after a playlist's last video finishes
+# (success or fail). Defaults match the paths given for ShurIKloud; override
+# via env if the tools ever move.
+MAKE_POSTERS_PYTHON = os.environ.get(
+    "MAKE_POSTERS_PYTHON", "/mnt/user/appdata/jellyfin-tools/bin/python3"
+)
+MAKE_POSTERS_SCRIPT = os.environ.get(
+    "MAKE_POSTERS_SCRIPT", "/mnt/user/appdata/make_posters.py"
+)
+MAKE_POSTERS_PATH_PREFIX = os.environ.get(
+    "MAKE_POSTERS_PATH_PREFIX", "/mnt/user/appdata/jellyfin-tools/bin"
+)
+
+
+def _build_outtmpl(job: Job, session) -> str:
+    """Standalone downloads keep the plain title in the root download
+    folder. Playlist videos are laid out as a Jellyfin TV show instead:
+
+        yt-shows/<Playlist Name>/Season 01/<Playlist Name> S01E## - <Title>.ext
+
+    The playlist title becomes the show/folder name, everything sits
+    under a single "Season 01" (Jellyfin needs at least one season
+    folder to recognize a show), and the S01E## prefix keeps episodes
+    in order and lets Jellyfin parse season/episode number directly
+    from the filename."""
+    if not job.playlist_id:
+        return os.path.join(DOWNLOAD_DIR, "%(title)s.%(ext)s")
+
+    playlist = session.get(Playlist, job.playlist_id)
+    total = playlist.total_count if playlist else 0
+    # At least 2 digits (S01E01) to match standard TV naming, but grows
+    # for playlists over 99 videos so numbering never collides.
+    width = max(2, len(str(total)) if total else 2)
+    episode = str(job.playlist_index).zfill(width)
+    show_name = sanitize_filename(playlist.title) if playlist else "Playlist"
+
+    season_dir = os.path.join(SHOWS_DIR, show_name, "Season 01")
+    os.makedirs(season_dir, exist_ok=True)
+
+    return os.path.join(season_dir, f"{show_name} S01E{episode} - %(title)s.%(ext)s")
+
+
+def _write_nfo(file_path: str, job: Job, info: dict):
+    """Writes a Kodi/Jellyfin-style .nfo file next to the video so the
+    library shows correct title/plot/air date without needing Jellyfin's
+    online metadata downloaders (which are turned off)."""
+    nfo_path = os.path.splitext(file_path)[0] + ".nfo"
+
+    title = info.get("title") or job.title or "Untitled"
+    description = info.get("description") or ""
+    upload_date = info.get("upload_date")  # "YYYYMMDD" or None
+    aired = ""
+    if upload_date and len(upload_date) == 8:
+        aired = f"{upload_date[0:4]}-{upload_date[4:6]}-{upload_date[6:8]}"
+
+    xml_content = (
+        '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n'
+        "<episodedetails>\n"
+        f"  <title>{escape(title)}</title>\n"
+        f"  <plot>{escape(description)}</plot>\n"
+        f"  <aired>{aired}</aired>\n"
+        "  <season>1</season>\n"
+        f"  <episode>{job.playlist_index}</episode>\n"
+        "</episodedetails>\n"
+    )
+    with open(nfo_path, "w", encoding="utf-8") as f:
+        f.write(xml_content)
+
+
+def _run_make_posters():
+    """Runs the poster-generation script over the whole shows library.
+    Called once a playlist has no jobs left pending. Failures here are
+    logged but never fail the download job itself."""
+    env = os.environ.copy()
+    env["PATH"] = f"{MAKE_POSTERS_PATH_PREFIX}:{env.get('PATH', '')}"
+    try:
+        result = subprocess.run(
+            [MAKE_POSTERS_PYTHON, MAKE_POSTERS_SCRIPT, SHOWS_DIR, "--apply"],
+            env=env,
+            capture_output=True,
+            text=True,
+            timeout=300,
+        )
+        if result.returncode != 0:
+            print(f"[make_posters] exited {result.returncode}: {result.stderr[-2000:]}")
+        else:
+            print("[make_posters] completed")
+    except Exception as exc:  # noqa: BLE001
+        print(f"[make_posters] failed to run: {exc}")
+
+
+def run_download(job_id: str, url: str):
+    """Executed by an RQ worker. Downloads the URL with yt-dlp and
+    updates the job row so the API can report progress/results."""
+    session = get_session()
+    job = session.get(Job, job_id)
+    if job is None:
+        session.close()
+        return
+
+    job.status = "running"
+    job.updated_at = dt.datetime.utcnow()
+    session.commit()
+
+    # Small random delay so a big playlist doesn't fire requests back-to-back
+    # in a way that looks like scraping to YouTube's rate limiter.
+    time.sleep(random.uniform(1, 3))
+
+    outtmpl = _build_outtmpl(job, session)
+
+    ydl_opts = {
+        "outtmpl": outtmpl,
+        "format": "bestvideo+bestaudio/best",
+        "merge_output_format": "mp4",
+        "quiet": True,
+        "noprogress": True,
+        "retries": 10,
+        "fragment_retries": 10,
+        # The "android" client is less prone to the signature/format 403s
+        # that hit the default web client; falls back to web if it fails.
+        "extractor_args": {"youtube": {"player_client": ["android", "web"]}},
+    }
+
+    last_error = None
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            with YoutubeDL(ydl_opts) as ydl:
+                info = ydl.extract_info(url, download=True)
+                file_path = ydl.prepare_filename(info)
+
+            job.status = "done"
+            job.file_path = file_path
+            job.error = None
+            last_error = None
+
+            if job.playlist_id:
+                try:
+                    _write_nfo(file_path, job, info)
+                except Exception:
+                    # Missing/bad .nfo shouldn't fail an otherwise-successful
+                    # download - Jellyfin just falls back to the filename.
+                    pass
+            break
+        except Exception as exc:  # noqa: BLE001 - we want to record any failure reason
+            last_error = str(exc)
+            retryable = any(marker in last_error.lower() for marker in RETRYABLE_MARKERS)
+            if retryable and attempt < MAX_ATTEMPTS:
+                time.sleep(5 * attempt)  # 5s, then 10s
+                continue
+            job.status = "failed"
+            job.error = last_error
+            break
+
+    job.updated_at = dt.datetime.utcnow()
+    session.commit()
+
+    if job.playlist_id:
+        remaining = (
+            session.query(Job)
+            .filter(Job.playlist_id == job.playlist_id, Job.status.in_(("queued", "running")))
+            .count()
+        )
+        if remaining == 0:
+            _run_make_posters()
+
+    session.close()

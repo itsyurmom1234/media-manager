@@ -1,0 +1,100 @@
+=== thundermans lost pilot (LOST MEDIA).mp4
+ Container media-manager-redis-1  Running
+ Container media-manager-postgres-1  Running
+[19:22:48] File: thundermans lost pilot (LOST MEDIA).mp4  (640x360, 1354s)
+[19:22:48] Searching YouTube for: thundermans lost pilot (LOST MEDIA)
+[19:22:49]   candidate z7-gHisx6h8   1355s  title 100%  length OK  LostEntertainmentM | thundermans lost pilot (LOST MEDIA)
+[19:22:49]   candidate yaKTXvIon4k   1355s  title 100%  length OK  InfinityAdrian🇪🇸 | thundermans lost pilot (LOST MEDIA)
+[19:22:49]   candidate heh6OeXEuXM   1355s  title  66%  length OK  Lessly.Rios2 | The Thundermans Pilot
+[19:22:49]   candidate QabQKeojU2s     44s  title  64%  length differs  playmobil and more | The Thundermans pilot intro
+[19:22:49]   candidate 85-RkdmxceM    114s  title  55%  length differs  Nickelodeon | The Thundermans | Super Bloopers & Fails | Nick
+[19:22:49]   candidate Uh3Bi2enxeo    869s  title  53%  length differs  Cranoverse | I Watched the LOST Thundermans Pilot Episode...
+[19:22:49]   candidate RloH4d3oYlU    181s  title  43%  length differs  Zach Sang Show | Jack Griffo Wasn't In The Original 'Thundermans' Pilot
+[19:22:49]   candidate L2lqk9Wk3YU     35s  title  42%  length differs  OnScreenThat Studi | The Thundermans | Intro Comparison (2013-2018)
+[19:22:49] Best match: https://www.youtube.com/watch?v=z7-gHisx6h8  (thundermans lost pilot (LOST MEDIA))
+[19:22:49] Write check OK in 1 folder(s)
+[19:22:49] DRY RUN - nothing downloaded or changed. Re-run with --apply to upgrade.
+
+=== macdonalds slide.mp4
+ Container media-manager-postgres-1  Running
+ Container media-manager-redis-1  Running
+[19:22:54] File: macdonalds slide.mp4  (480x848, 6s)
+[19:22:54] Searching YouTube for: macdonalds slide
+[19:22:55]   candidate cgqe1FCW-rY     42s  title  63%  length differs  eye flow | McDonalds Rubik's Slide Happy Meal
+[19:22:55]   candidate kNxALBcsDX0     53s  title  56%  length differs  Bruce deGraaf | Lilah at McDonalds Playland
+[19:22:55]   candidate LPnAoeAK7nQ    653s  title  50%  length differs  leos play time | Playing at Mcdonalds indoor playground slides
+[19:22:55]   candidate Oo2g2_gp6ao    259s  title  43%  length differs  Toys Make Me Smile | Eating McDonalds and Playing at the Playground
+[19:22:55]   candidate GflAEQkwnzA    626s  title  33%  length differs  Mr.Gibbs | EXTRA SLIDE IS THE NEW MCDONALDS PLAYSET!! (Garry's Mod
+[19:22:55]   candidate JQaLxlZ2cNQ    602s  title  32%  length differs  VanossGaming | Gmod Sandbox Funny Moments - Sonic 1v1, Mcdonalds, Base
+[19:22:55]   candidate ajBfA5yFZ7E   1237s  title  32%  length differs  GamingWithJen | Roblox: SLIDING DOWN 888,888,888 FEET IN MCDONALDS!!!
+[19:22:55]   candidate uU6NQraZNSY   1600s  title  13%  length differs  Sambucha | I Tested Every Store's Playground
+[19:22:55] NO CONFIDENT MATCH - nothing changed. Find the video yourself and pass --url instead.
+
+=== Online Multiplayer in Mario Odyssey just got BIGGER.mp4
+ Container media-manager-postgres-1  Running
+ Container media-manager-redis-1  Running
+[19:23:00] File: Online Multiplayer in Mario Odyssey just got BIGGER.mp4  (1280x720, 1969s)
+[19:23:00] Searching YouTube for: Online Multiplayer in Mario Odyssey just got BIGGER
+[19:23:02]   candidate vviqb8BXOPo   1970s  title 100%  length OK  cjya | Online Multiplayer in Mario Odyssey just got BIGGER
+[19:23:02]   candidate N1W1sjWh8Nw   2608s  title  96%  length differs  cjya | Online Multiplayer in Mario Odyssey just got BIGGEST
+[19:23:02]   candidate iJCRSgUIklk   1383s  title  92%  length differs  cjya | Online Multiplayer in Mario Odyssey just got CRAZIER
+[19:23:02]   candidate G-rI8FHrh20   1598s  title  92%  length differs  cjya | Online Multiplayer in Mario Odyssey just got WEIRDER
+[19:23:02]   candidate _z6d8Kge2ZM   2238s  title  87%  length differs  cjya | Online Multiplayer in Mario Odyssey just got CORRUPT
+[19:23:02]   candidate GCX4Xha-0no   1774s  title  57%  length differs  Fir | Mario Odyssey Online Multiplayer is Hilarious
+[19:23:02]   candidate CATm2QWj9U8   1686s  title  53%  length differs  SmallAnt | Mario Odyssey's Online Multiplayer is Amazing
+[19:23:02]   candidate NNqFSGRKtRY   2138s  title  50%  length differs  cjya | Mario Odyssey Hide and Seek just got TEAMS
+[19:23:02] Best match: https://www.youtube.com/watch?v=vviqb8BXOPo  (Online Multiplayer in Mario Odyssey just got BIGGER)
+[19:23:02] Write check OK in 1 folder(s)
+[19:23:02] DRY RUN - nothing downloaded or changed. Re-run with --apply to upgrade.
+
+=== Malia baker talks about menstrual health!!!.mp4
+ Container media-manager-postgres-1  Running
+ Container media-manager-redis-1  Running
+[19:23:07] File: Malia baker talks about menstrual health!!!.mp4  (640x358, 162s)
+[19:23:07] Searching YouTube for: Malia baker talks about menstrual health!!!
+[19:23:08]   candidate 1ALl8TKIyRs    162s  title 100%  length OK  DZedits | Malia baker talks about menstrual health!!!
+[19:23:08]   candidate T39xDJsPsuc   2269s  title  52%  length differs  Mattel Imagine | Paulina Chávez talks about mental health & mindfulness 
+[19:23:08]   candidate WcLY0npLlcY   1630s  title  33%  length differs  Delivering Joy LLC | Birth Emergencies: Postpartum Hemorrhage
+[19:23:08]   candidate J4VuCfq_kx4    158s  title  30%  length OK  Mattel Imagine | Shay Rudolph's MOST EMBARRASSING moment! | Smart Girls 
+[19:23:08]   candidate e2opFkGdNV8    163s  title  26%  length OK  Mattel Imagine | The most common puberty question... | American Girl Pod
+[19:23:08]   candidate jZwx65Ks6yY   3334s  title  19%  length differs  Girl Up | A Year with Girl Up, Celebrating Our Social Changemaker
+[19:23:08]   candidate rp6ZUCQWGpE   3695s  title  12%  length differs  MOMager  | Freya Skye & her mom Sarah | #7 | MOMager
+[19:23:08]   candidate ZedAcWsT-Lw     41s  title  12%  length differs  Girl Up | Change is coming
+[19:23:08] Best match: https://www.youtube.com/watch?v=1ALl8TKIyRs  (Malia baker talks about menstrual health!!!)
+[19:23:08] Write check OK in 1 folder(s)
+[19:23:08] DRY RUN - nothing downloaded or changed. Re-run with --apply to upgrade.
+
+=== My Home Server is REALLY Stupid and I Need to Fix It.mp4
+ Container media-manager-postgres-1  Running
+ Container media-manager-redis-1  Running
+[19:23:13] File: My Home Server is REALLY Stupid and I Need to Fix It.mp4  (640x320, 1397s)
+[19:23:13] Searching YouTube for: My Home Server is REALLY Stupid and I Need to Fix It
+[19:23:15]   candidate CrIjSD0zW7c   1397s  title 100%  length OK  Linus Tech Tips | My Home Server is REALLY Stupid and I Need to Fix It
+[19:23:15]   candidate QoC8R3KHk8E   1064s  title  48%  length differs  Linus Tech Tips | My Smart Home is Stupid - HVAC Update
+[19:23:15]   candidate geb_gk1XXyA   1207s  title  40%  length differs  Linus Tech Tips | My server is broken :( - Fixing Linus' Home UNRAID Serv
+[19:23:15]   candidate ahOXQM4416Q   1048s  title  32%  length differs  TechHut | DITCHING my Homelab software for UNRAID
+[19:23:15]   candidate FhUQ4YVQL3g    768s  title  29%  length differs  Andreas Klinger @  | Meeting the European Company that wants to fix our Hous
+[19:23:15]   candidate zPmqbtKwtgw    667s  title  27%  length differs  Linus Tech Tips | Your Old PC is Your New Server
+[19:23:15]   candidate 5TCbTmIbFso    693s  title  25%  length differs  JayzTwoCents | Identifying and replacing a bad server drive
+[19:23:15]   candidate GYyHcPEaS3Y   5639s  title  19%  length differs  BTC Sessions and S | Every Way To Outsmart Hackers, Big Tech And The Governm
+[19:23:15] Best match: https://www.youtube.com/watch?v=CrIjSD0zW7c  (My Home Server is REALLY Stupid and I Need to Fix It)
+[19:23:15] Write check OK in 1 folder(s)
+[19:23:15] DRY RUN - nothing downloaded or changed. Re-run with --apply to upgrade.
+
+=== Don't Get in Trouble with HR Challenge (HARD) - AMD $5,000 Ultimate Tech Upgrade.mp4
+ Container media-manager-postgres-1  Running
+ Container media-manager-redis-1  Running
+[19:23:19] File: Don't Get in Trouble with HR Challenge (HARD) - AMD $5,000 Ultimate Tech Upgrade.mp4  (640x320, 1732s)
+[19:23:19] Searching YouTube for: Don't Get in Trouble with HR Challenge (HARD) - AMD $5,000 Ultimate Tech Upgrade
+[19:23:21]   candidate oTYwd9OjFRk   1732s  title 100%  length OK  Linus Tech Tips | Don't Get in Trouble with HR Challenge (HARD) - AMD $5,
+[19:23:21]   candidate OD445Mp_Mp8   1363s  title  66%  length differs  Linus Tech Tips | I Should Have Never Hired a Fan…. - AMD $5000 Ultimate 
+[19:23:21]   candidate EHwZAqTuPOs   1492s  title  62%  length differs  Linus Tech Tips | I Broke his TV Within 5 Minutes...AMD $5000 Ultimate Te
+[19:23:21]   candidate IL2P1IB-2nc   1447s  title  59%  length differs  Linus Tech Tips | Life is full of surprises - AMD $5,000 Ultimate Tech Up
+[19:23:21]   candidate YR93H2cEFcE    222s  title  36%  length differs  ASMRTechTips | MEME: Quietly Upgrading with AMD 5000 - No HR Drama Her
+[19:23:21]   candidate gE1ZF201zI4   2761s  title  26%  length differs  Foltyn | Spending 10,000,000 Robux In 1 Hour!
+[19:23:21]   candidate AZfwHcMLorY    245s  title  26%  length differs  Rob Everhard | OLED Burn-in : 1.5 Year Update
+[19:23:21]   candidate gqVxgcKQO2E   1072s  title  21%  length differs  jakkuh | Why I left Linus Tech Tips
+[19:23:21] Best match: https://www.youtube.com/watch?v=oTYwd9OjFRk  (Don't Get in Trouble with HR Challenge (HARD) - AMD $5,000 Ultimate Te)
+[19:23:21] Write check OK in 1 folder(s)
+[19:23:21] DRY RUN - nothing downloaded or changed. Re-run with --apply to upgrade.
+

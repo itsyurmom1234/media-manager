@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE                           COMMAND                  CREATED          STATUS          PORTS     NAMES
+ecf9dbd634ee   media-manager-download-worker   "python -m app.worker"   29 minutes ago   Up 29 minutes             media-manager-download-worker-1

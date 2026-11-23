@@ -1,0 +1,176 @@
+[20:39:10] Show folder: austin SV in order
+[20:39:16] 81 of 81 files are below 1000p
+[20:39:18] Playlist 'austin SV in order' has 82 entries
+[20:39:18] Matched 81, unmatched 0
+[20:39:18] Write check OK in 1 folder(s)
+[20:39:18] [1/81] austin SV in order S01E01 - Tera Raid Battle Spotlight Events for Pokemon Scarle
+[20:39:44]     UPGRADED: 360p -> 1080p
+[20:40:08] [2/81] austin SV in order S01E02 - All 162 Transfer-Only Pokemon in Scarlet and Violet.
+[20:40:16]     UPGRADED: 360p -> 1080p
+[20:40:41] [3/81] austin SV in order S01E03 - Should You Buy Pokemon Scarlet OR Violet？ all 46 CON
+[20:40:53]     UPGRADED: 360p -> 1080p
+[20:41:14] [4/81] austin SV in order S01E04 - All 297 CONFIRMED Returning Pokemon in Scarlet and V
+[20:41:31]     UPGRADED: 360p -> 1080p
+[20:41:53] [5/81] austin SV in order S01E05 - Paldean Starter Evolutions Reveal in Pokemon Scarlet
+[20:42:59]     UPGRADED: 360p -> 1080p
+[20:43:28] [6/81] austin SV in order S01E06 - Reviewing All 103 New Pokemon in Scarlet and Violet 
+[20:43:48]     UPGRADED: 360p -> 1080p
+[20:44:15] [7/81] austin SV in order S01E07 - How to Get Shiny Pokemon & Sparkling Power in Pokemo
+[20:45:12]     UPGRADED: 360p -> 1080p
+[20:45:39] [8/81] austin SV in order S01E09 - Where To Start YOUR Treasure Hunt in Pokemon Scarlet
+[20:45:57]     UPGRADED: 360p -> 1080p
+[20:46:19] [9/81] austin SV in order S01E10 - How to Get All 999 Coins & How to Evolve Gimmighoul 
+[20:46:35]     UPGRADED: 360p -> 1080p
+[20:46:58] [10/81] austin SV in order S01E11 - How to Get Wild & 5-6IV Dittos in Pokemon Scarlet an
+[20:47:08]     UPGRADED: 360p -> 1080p
+[20:47:31] [11/81] austin SV in order S01E12 - All 60 Special Evolutions in Pokemon Scarlet and Vio
+[20:47:47]     UPGRADED: 360p -> 1080p
+[20:48:09] [12/81] austin SV in order S01E13 - Trade Codes for Version Exclusive Pokemon & Paradoxe
+[20:48:18]     UPGRADED: 360p -> 1080p
+[20:48:46] [13/81] austin SV in order S01E14 - How to Get Trade-Free Gengar, Galarian Meowth & Woop
+[20:48:58]     UPGRADED: 360p -> 1080p
+[20:49:27] [14/81] austin SV in order S01E15 - How to Duplicate Wild Shiny Pokemon in Pokemon Scarl
+[20:49:37]     UPGRADED: 360p -> 1080p
+[20:50:02] [15/81] austin SV in order S01E16 - How to Get All Evolution Items, Form Items, & Extra 
+[20:50:16]     UPGRADED: 360p -> 1080p
+[20:50:40] [16/81] austin SV in order S01E17 - The BEST Rewards for Classes & Trainers in Pokemon S
+[20:50:55]     UPGRADED: 360p -> 1080p
+[20:51:19] [17/81] austin SV in order S01E18 - The ULTIMATE Sandwich Guide! How to Make the BEST Re
+[20:51:37]     UPGRADED: 360p -> 1080p
+[20:52:06] [18/81] austin SV in order S01E19 - Complete Guide to WIN 6-Star Tera Raids in Pokemon S
+[20:52:28]     UPGRADED: 360p -> 1080p
+[20:52:57] [19/81] austin SV in order S01E20 - All 32 Ominous Stakes for Legendary Treasures of Rui
+[0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden
+[20:53:01]     transient error ([0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden), retrying in 20s
+[20:53:45]     UPGRADED: 360p -> 1080p
+[20:54:06] [20/81] austin SV in order S01E21 - How to Catch the Titan Pokemon in Pokemon Scarlet an
+[20:54:20]     UPGRADED: 360p -> 1080p
+[20:54:42] [21/81] austin SV in order S01E22 - The FASTEST Way to Hunt Shiny Pokemon in Mass Outbre
+[20:55:00]     UPGRADED: 360p -> 1080p
+[20:55:29] [22/81] austin SV in order S01E23 - The BEST Builds for Tera Raids in Pokemon Scarlet an
+[20:55:43]     UPGRADED: 360p -> 1080p
+[20:56:10] [23/81] austin SV in order S01E24 - How to Get & Shiny Hunt All 16 Paradox Pokemon in Sc
+[20:56:33]     UPGRADED: 360p -> 1080p
+[20:56:57] [24/81] austin SV in order S01E25 - UNLIMITED Sparkling Power Sandwiches! No Herba Consu
+[20:57:08]     UPGRADED: 360p -> 1080p
+[20:57:29] [25/81] austin SV in order S01E26 - ULTIMATE Breeding Guide for Shiny Pokemon, IVs, & Mo
+[20:57:47]     UPGRADED: 360p -> 1080p
+[20:58:09] [26/81] austin SV in order S01E27 - Isolated Encounter Shiny Hunting in Pokemon Scarlet 
+[20:58:26]     UPGRADED: 360p -> 1080p
+[20:58:55] [27/81] austin SV in order S01E28 - How to Find & Host Shiny Raids in Pokemon Scarlet an
+[20:59:10]     UPGRADED: 360p -> 1080p
+[20:59:40] [28/81] austin SV in order S01E29 - 5 Great Ways to Make Money in Pokemon Scarlet and Vi
+[20:59:50]     UPGRADED: 360p -> 1080p
+[21:00:18] [29/81] austin SV in order S01E30 - Update V1.1.0 TODAY for Pokemon Scarlet and Violet.m
+[21:00:27]     UPGRADED: 360p -> 1080p
+[21:00:47] [30/81] austin SV in order S01E31 - ONLY Shiny Flutter Mane Spawn in Pokemon Scarlet.mp4
+[21:00:55]     UPGRADED: 360p -> 1080p
+[21:01:16] [31/81] austin SV in order S01E32 - How to Choose Your Mass Outbreak in Pokemon Scarlet 
+[21:01:32]     UPGRADED: 360p -> 1080p
+[21:01:55] [32/81] austin SV in order S01E33 - All Gen 9 Shiny Pokemon Visual Aid Comparison for Sc
+[21:02:11]     UPGRADED: 360p -> 1080p
+[21:02:39] [33/81] austin SV in order S01E34 - Custom Sandwich Simulator for Pokemon Scarlet and Vi
+[21:02:44]     UPGRADED: 360p -> 1080p
+[21:03:14] [34/81] austin SV in order S01E35 - 33 EASY Shiny Hunts in Pokemon Scarlet and Violet.mp
+[21:03:40]     UPGRADED: 360p -> 1080p
+[21:04:01] [35/81] austin SV in order S01E36 - Encounter Power Affects Mass Outbreaks Appearing in 
+[21:04:18]     UPGRADED: 360p -> 1080p
+[21:04:40] [36/81] austin SV in order S01E37 - Triple Masuda Breeding in Pokemon Scarlet and Violet
+[21:04:54]     UPGRADED: 360p -> 1080p
+[21:05:21] [37/81] austin SV in order S01E38 - How to Shiny Hunt FIXED Encounters in Pokemon Scarle
+[21:05:35]     UPGRADED: 360p -> 1080p
+[21:05:57] [38/81] austin SV in order S01E39 - What Does Wild Shiny Ditto Look Like in Pokemon scar
+[21:06:34]     UPGRADED: 360p -> 1080p
+[21:06:58] [39/81] austin SV in order S01E40 - How to Exclude Pack Spawns for Easy Area 0 Shiny Hun
+[21:07:21]     UPGRADED: 360p -> 1080p
+[21:07:46] [40/81] austin SV in order S01E41 - A Simple Guide to EVs, IVs, Natures, & More in Pokem
+[21:08:02]     UPGRADED: 360p -> 1080p
+[21:08:24] [41/81] austin SV in order S01E42 - A Simple Guide to Egg Moves & Mirror Herb in Pokemon
+[21:08:33]     UPGRADED: 360p -> 1080p
+[21:08:54] [42/81] austin SV in order S01E43 - 7-Star Cinderace & Delibird Tera Raid Spotlight Anno
+[21:09:03]     UPGRADED: 360p -> 1080p
+[21:09:30] [43/81] austin SV in order S01E44 - 26+ Major Bug Fixes in Version 1.2.0 Patch Notes for
+[21:09:41]     UPGRADED: 360p -> 1080p
+[21:10:10] [44/81] austin SV in order S01E45 - New Pokemon Revealed, Pokemon Sleep, SV DLC & More a
+[21:10:31]     UPGRADED: 360p -> 1080p
+[21:10:55] [45/81] austin SV in order S01E46 - How to Get Walking Wake & Iron Leaves in Pokemon Sca
+[0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden
+[21:10:58]     transient error ([0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden), retrying in 20s
+[21:11:33]     UPGRADED: 360p -> 1080p
+[21:11:54] [46/81] austin SV in order S01E47 - All 7 NEW Legendary Pokemon & DLC Info - Pokemon Sca
+[21:12:12]     UPGRADED: 360p -> 1080p
+[21:12:32] [47/81] austin SV in order S01E48 - How to Get all 19 Vivillon & Connect Pokemon Go to P
+[21:12:47]     UPGRADED: 360p -> 1080p
+[21:13:09] [48/81] austin SV in order S01E49 - All 715 Pokemon In Scarlet and Violet's DLC： The Hid
+[21:13:23]     UPGRADED: 360p -> 1080p
+[21:13:47] [49/81] austin SV in order S01E50 - ＊WARNING＊ There's a Bug in Scarlet and Violet V1.2 t
+[0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden
+[21:13:50]     transient error ([0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden), retrying in 20s
+[21:14:25]     UPGRADED: 360p -> 1080p
+[21:14:55] [50/81] austin SV in order S01E51 - Save Data & Paradox Fixes in Version 1.3 Patch Notes
+[0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden
+[21:14:57]     transient error ([0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden), retrying in 20s
+[21:15:28]     UPGRADED: 360p -> 1080p
+[21:15:55] [51/81] austin SV in order S01E52 - ＊May 30TH＊ Pokemon Home Update for Pokemon Scarlet a
+[21:16:03]     UPGRADED: 360p -> 1080p
+[21:16:28] [52/81] austin SV in order S01E53 - Pokemon Home is LIVE - Update for Pokemon Scarlet an
+[21:16:35]     UPGRADED: 360p -> 1080p
+[21:16:59] [53/81] austin SV in order S01E54 - NEW Pokemon： Poltchageist! A New Convergent Evolutio
+[21:17:14]     UPGRADED: 360p -> 1080p
+[21:17:44] [54/81] austin SV in order S01E55 - All 99 Returning Pokemon in The Teal Mask - Scarlet 
+[21:17:52]     UPGRADED: 360p -> 1080p
+[21:18:22] [55/81] austin SV in order S01E56 - Teal Mask is OUT NOW! - Release TIME for Teal Mask -
+[21:18:37]     UPGRADED: 360p -> 1080p
+[21:19:04] [56/81] austin SV in order S01E57 - Shiny Locked & Gift Pokemon, BOXES ARE FIXED, & New 
+[21:19:17]     UPGRADED: 360p -> 1080p
+[21:19:45] [57/81] austin SV in order S01E58 - TEAL MASK Trade Codes for Version Exclusive Pokemon 
+[21:19:57]     UPGRADED: 360p -> 1080p
+[21:20:23] [58/81] austin SV in order S01E59 - How to Get Every New Teal Mask Pokemon in Scarlet an
+[21:20:40]     UPGRADED: 360p -> 1080p
+[21:21:02] [59/81] austin SV in order S01E60 - Beat Ogre Oustin' Hard Mode for Shiny Munchlax in th
+[21:21:16]     UPGRADED: 360p -> 1080p
+[21:21:39] [60/81] austin SV in order S01E61 - IMPROVEMENTS to Mass Outbreaks in Scarlet & Violet V
+[21:21:52]     UPGRADED: 360p -> 1080p
+[21:22:15] [61/81] austin SV in order S01E62 - Billy and O'Nare Locations & How to get Flash Jinbei
+[21:22:24]     UPGRADED: 360p -> 1080p
+[21:22:48] [62/81] austin SV in order S01E63 - 26 EASY Shiny Hunts in Teal Mask - Pokemon Scarlet &
+[21:23:09]     UPGRADED: 360p -> 1080p
+[21:23:35] [63/81] austin SV in order S01E64 - All Indigo Disk Returning Pokemon - Scarlet and Viol
+[21:23:45]     UPGRADED: 360p -> 1080p
+[21:24:11] [64/81] austin SV in order S01E65 - Indigo Disk's Final Teaser Trailer - Pokemon Scarlet
+[21:24:22]     UPGRADED: 360p -> 1080p
+[21:24:43] [65/81] austin SV in order S01E66 - All New Pokemon in Indigo Disk & Shiny Locks - Pokem
+[21:24:51]     UPGRADED: 360p -> 1080p
+[21:25:17] [66/81] austin SV in order S01E67 - How to Get ALL 24 Starter Pokemon - Indigo Disk.mp4
+[21:25:24]     UPGRADED: 360p -> 1080p
+[21:25:48] [67/81] austin SV in order S01E68 - How to Evolve Dipplin & Duraludon to Hydrapple & Arc
+[21:25:56]     UPGRADED: 360p -> 1080p
+[21:26:24] [68/81] austin SV in order S01E69 - How to Get 4 New Paradox Pokemon - Indigo Disk (Perr
+[21:26:42]     UPGRADED: 360p -> 1080p
+[21:27:09] [69/81] austin SV in order S01E70 - INDIGO DISK Trade Codes for Version Exclusive Pokemo
+[21:27:15]     UPGRADED: 360p -> 1080p
+[21:27:39] [70/81] austin SV in order S01E71 - How to Get Meloetta - Pokemon Indigo Disk.mp4
+[21:27:46]     UPGRADED: 360p -> 1080p
+[21:28:08] [71/81] austin SV in order S01E72 - Easy BBQ BP Guide - Pokemon Indigo Disk.mp4
+[21:28:19]     UPGRADED: 360p -> 1080p
+[21:28:48] [72/81] austin SV in order S01E73 - How Does Stellar Type Work？ Pokemon Indigo Disk.mp4
+[21:29:00]     UPGRADED: 360p -> 1080p
+[21:29:27] [73/81] austin SV in order S01E74 - How to Get ALL 25 Legendary Pokemon in Indigo Disk.m
+[21:29:41]     UPGRADED: 360p -> 1080p
+[21:30:07] [74/81] austin SV in order S01E75 - Get the Rarest Pokeballs & Items from Item Printer -
+[21:30:15]     UPGRADED: 360p -> 1080p
+[21:30:39] [75/81] austin SV in order S01E76 - New Epilogue Event Coming - Pokemon Indigo Disk (Pec
+[21:30:53]     UPGRADED: 360p -> 1080p
+[21:31:15] [76/81] austin SV in order S01E77 - Secret Post-Game Clothing in Pokemon Indigo Disk (Ba
+[21:31:28]     UPGRADED: 360p -> 1080p
+[21:31:51] [77/81] austin SV in order S01E78 - Shiny Blitzle! All League Coach Unlocks, Trades, & I
+[21:32:00]     UPGRADED: 360p -> 1080p
+[21:32:27] [78/81] austin SV in order S01E79 - All 130 Special Evolutions in Pokemon Hidden Treasur
+[21:32:38]     UPGRADED: 360p -> 1080p
+[21:32:59] [79/81] austin SV in order S01E80 - How to Get Pecharunt - Pokemon Scarlet & Violet Epil
+[21:33:11]     UPGRADED: 360p -> 1080p
+[21:33:36] [80/81] austin SV in order S01E81 - Version 3.0.1 Patch Notes for Pokemon Scarlet and Vi
+[21:33:49]     UPGRADED: 360p -> 1080p
+[21:34:11] [81/81] austin SV in order S01E82 - Walking Wake & Iron Leaves Raid Event ＊OVER＊.mp4
+[21:34:38]     UPGRADED: 360p -> 1080p
+[21:34:38] DONE: 81 upgraded, 0 skipped, 0 errors, 0 unmatched (never touched)

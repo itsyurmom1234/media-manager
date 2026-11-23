@@ -1,0 +1,32 @@
+=== default | https://youtu.be/TMQkAxDfXK4 ===
+
+
+ERROR: ffmpeg exited with code 8
+=== web_safari | https://youtu.be/TMQkAxDfXK4 ===
+ERROR: [youtube] TMQkAxDfXK4: Requested format is not available. Use --list-formats for a list of available formats
+=== tv | https://youtu.be/TMQkAxDfXK4 ===
+ERROR: [youtube] TMQkAxDfXK4: The page needs to be reloaded.
+=== mweb | https://youtu.be/TMQkAxDfXK4 ===
+ERROR: [youtube] TMQkAxDfXK4: Requested format is not available. Use --list-formats for a list of available formats
+=== ios | https://youtu.be/TMQkAxDfXK4 ===
+ERROR: [youtube] TMQkAxDfXK4: Requested format is not available. Use --list-formats for a list of available formats
+=== android_vr | https://youtu.be/TMQkAxDfXK4 ===
+
+
+ERROR: ffmpeg exited with code 8
+=== default | https://youtu.be/dQw4w9WgXcQ ===
+
+
+ERROR: ffmpeg exited with code 8
+=== web_safari | https://youtu.be/dQw4w9WgXcQ ===
+ERROR: [youtube] dQw4w9WgXcQ: Requested format is not available. Use --list-formats for a list of available formats
+=== tv | https://youtu.be/dQw4w9WgXcQ ===
+ERROR: [youtube] dQw4w9WgXcQ: The page needs to be reloaded.
+=== mweb | https://youtu.be/dQw4w9WgXcQ ===
+ERROR: [youtube] dQw4w9WgXcQ: Requested format is not available. Use --list-formats for a list of available formats
+=== ios | https://youtu.be/dQw4w9WgXcQ ===
+ERROR: [youtube] dQw4w9WgXcQ: Requested format is not available. Use --list-formats for a list of available formats
+=== android_vr | https://youtu.be/dQw4w9WgXcQ ===
+
+
+ERROR: ffmpeg exited with code 8

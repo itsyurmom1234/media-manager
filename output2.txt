@@ -1,0 +1,40 @@
+oot@Shurikloud:/mnt/user/PC/docker stuff/media-manager# docker compose logs postgres --tail 30
+docker compose exec postgres psql -U media -d media -c "SELECT id, status, playlist_index FROM jobs ORDER BY created_at DESC LIMIT 5;"
+postgres-1  | .....2026-07-29 10:00:42.021 UTC [113] FATAL:  the database system is shutting down
+postgres-1  | ..2026-07-29 10:00:43.719 UTC [60] LOG:  checkpoint complete: wrote 926 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.013 s, sync=24.401 s, total=26.408 s; sync files=301, longest=0.908 s, average=0.082 s; distance=4283 kB, estimate=4283 kB; lsn=0/1925D58, redo lsn=0/1925D58
+postgres-1  | 2026-07-29 10:00:43.726 UTC [53] LOG:  database system is shut down
+postgres-1  |  done
+postgres-1  | server stopped
+postgres-1  | 
+postgres-1  | PostgreSQL init process complete; ready for start up.
+postgres-1  | 
+postgres-1  | 2026-07-29 10:00:44.349 UTC [1] LOG:  starting PostgreSQL 16.14 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+postgres-1  | 2026-07-29 10:00:44.349 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres-1  | 2026-07-29 10:00:44.349 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres-1  | 2026-07-29 10:00:44.954 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres-1  | 2026-07-29 10:00:45.611 UTC [117] LOG:  database system was shut down at 2026-07-29 10:00:43 UTC
+postgres-1  | 2026-07-29 10:00:46.104 UTC [1] LOG:  database system is ready to accept connections
+postgres-1  | 2026-07-29 10:05:45.624 UTC [115] LOG:  checkpoint starting: time
+postgres-1  | 2026-07-29 10:05:57.908 UTC [115] LOG:  checkpoint complete: wrote 88 buffers (0.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=8.515 s, sync=2.683 s, total=12.285 s; sync files=51, longest=0.268 s, average=0.053 s; distance=451 kB, estimate=451 kB; lsn=0/19969C0, redo lsn=0/1996988
+postgres-1  | 2026-07-29 14:30:49.494 UTC [115] LOG:  checkpoint starting: time
+postgres-1  | 2026-07-29 14:30:51.006 UTC [115] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.702 s, sync=0.416 s, total=1.513 s; sync files=5, longest=0.107 s, average=0.084 s; distance=1 kB, estimate=406 kB; lsn=0/1996E08, redo lsn=0/1996DD0
+postgres-1  | 2026-07-30 10:26:05.649 UTC [115] LOG:  checkpoint starting: time
+postgres-1  | 2026-07-30 10:26:08.621 UTC [115] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.502 s, sync=1.268 s, total=2.972 s; sync files=5, longest=0.334 s, average=0.254 s; distance=2 kB, estimate=365 kB; lsn=0/1997770, redo lsn=0/1997738
+postgres-1  | 2026-07-30 11:36:06.866 UTC [115] LOG:  checkpoint starting: time
+postgres-1  | 2026-07-30 11:36:10.068 UTC [115] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.401 s, sync=1.233 s, total=3.203 s; sync files=5, longest=0.283 s, average=0.247 s; distance=4 kB, estimate=329 kB; lsn=0/19987C8, redo lsn=0/1998758
+postgres-1  | 2026-07-30 11:41:06.140 UTC [115] LOG:  checkpoint starting: time
+postgres-1  | 2026-07-30 11:41:07.908 UTC [115] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.101 s, sync=0.458 s, total=1.768 s; sync files=2, longest=0.233 s, average=0.229 s; distance=3 kB, estimate=296 kB; lsn=0/19995F0, redo lsn=0/19995B8
+postgres-1  | 2026-08-02 14:27:15.685 UTC [115] LOG:  checkpoint starting: time
+postgres-1  | 2026-08-02 14:27:17.420 UTC [115] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.342 s, total=1.736 s; sync files=1, longest=0.342 s, average=0.342 s; distance=0 kB, estimate=267 kB; lsn=0/1999768, redo lsn=0/1999730
+postgres-1  | 2026-08-02 14:32:15.485 UTC [115] LOG:  checkpoint starting: time
+postgres-1  | 2026-08-02 14:32:18.498 UTC [115] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.401 s, sync=1.309 s, total=3.014 s; sync files=5, longest=0.309 s, average=0.262 s; distance=7 kB, estimate=241 kB; lsn=0/199B3F8, redo lsn=0/199B3C0
+postgres-1  | 2026-08-02 14:42:15.698 UTC [115] LOG:  checkpoint starting: time
+postgres-1  | 2026-08-02 14:42:18.746 UTC [115] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.401 s, sync=1.328 s, total=3.049 s; sync files=5, longest=0.303 s, average=0.266 s; distance=9 kB, estimate=218 kB; lsn=0/199D870, redo lsn=0/199D838
+                  id                  | status | playlist_index 
+--------------------------------------+--------+----------------
+ a448f96b-a24d-40bc-8c61-f861c801c1a1 | queued |              4
+ 722a3ace-0213-4469-a3eb-9c7cbdcf76fa | queued |              3
+ 03bfe19d-378e-4648-a410-0055f492d0d2 | queued |              2
+ 55e2fffb-cd00-41d2-a2a4-8a0ed0e1ec6f | queued |              1
+(4 rows)
+

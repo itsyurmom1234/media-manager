@@ -1,0 +1,28 @@
+download-worker-1  | 10:24:34 Worker rq:worker:fc65abf417d444569fd89aff81b7d7af started with PID 1, version 1.16.2
+download-worker-1  | 10:24:34 Subscribing to channel rq:pubsub:fc65abf417d444569fd89aff81b7d7af
+download-worker-1  | 10:24:34 *** Listening on downloads...
+download-worker-1  | 10:24:34 Cleaning registries for queue: downloads
+download-worker-1  | 10:38:04 Cleaning registries for queue: downloads
+download-worker-1  | 10:38:35 downloads: app.tasks.run_download('a7432fbd-279a-4a8e-9f65-c7e01e1a15b7', 'https://www.youtube.com/watch?v=q1SU3fv1g90') (a7432fbd-279a-4a8e-9f65-c7e01e1a15b7)
+download-worker-1  | [trace] a7432fbd-279a-4a8e-9f65-c7e01e1a15b7 start
+download-worker-1  | [trace] a7432fbd-279a-4a8e-9f65-c7e01e1a15b7 no job row found, bailing
+download-worker-1  | 10:38:35 downloads: Job OK (a7432fbd-279a-4a8e-9f65-c7e01e1a15b7)
+download-worker-1  | 10:38:35 Result is kept for 500 seconds
+download-worker-1  | 10:38:35 downloads: app.tasks.run_download('f36c318f-6864-4aaf-975f-76520cb831a5', 'https://www.youtube.com/watch?v=HTSSUbuOtOU') (f36c318f-6864-4aaf-975f-76520cb831a5)
+download-worker-1  | [trace] f36c318f-6864-4aaf-975f-76520cb831a5 start
+download-worker-1  | [trace] f36c318f-6864-4aaf-975f-76520cb831a5 no job row found, bailing
+download-worker-1  | 10:38:35 downloads: Job OK (f36c318f-6864-4aaf-975f-76520cb831a5)
+download-worker-1  | 10:38:35 Result is kept for 500 seconds
+download-worker-1  | 10:52:05 Cleaning registries for queue: downloads
+download-worker-1  | 10:56:23 downloads: app.tasks.run_download('ac4084b6-93b3-4f57-bd78-b636cf5bd948', 'https://www.youtube.com/watch?v=q1SU3fv1g90') (ac4084b6-93b3-4f57-bd78-b636cf5bd948)
+download-worker-1  | [trace] ac4084b6-93b3-4f57-bd78-b636cf5bd948 start
+download-worker-1  | [trace] ac4084b6-93b3-4f57-bd78-b636cf5bd948 no job row found, bailing
+download-worker-1  | 10:56:23 downloads: Job OK (ac4084b6-93b3-4f57-bd78-b636cf5bd948)
+download-worker-1  | 10:56:23 Result is kept for 500 seconds
+download-worker-1  | 10:56:23 downloads: app.tasks.run_download('8bbfee57-2cc0-47c6-ae62-9f0b5e38774a', 'https://www.youtube.com/watch?v=HTSSUbuOtOU') (8bbfee57-2cc0-47c6-ae62-9f0b5e38774a)
+download-worker-1  | [trace] 8bbfee57-2cc0-47c6-ae62-9f0b5e38774a start
+download-worker-1  | [trace] 8bbfee57-2cc0-47c6-ae62-9f0b5e38774a no job row found, bailing
+download-worker-1  | 10:56:23 downloads: Job OK (8bbfee57-2cc0-47c6-ae62-9f0b5e38774a)
+download-worker-1  | 10:56:23 Result is kept for 500 seconds
+----- current queue -----
+[{"type":"playlist","id":"3d454ec6-fa0c-4717-8b8b-aa6706e70d68","title":"Nice Rack","url":"https://youtube.com/playlist?list=PLYpKvXx1H_8o&si=GM__bhiuWhKza3Uq","total_count":2,"created_at":"2026-08-04T10:56:23.083977","jobs":[{"id":"ac4084b6-93b3-4f57-bd78-b636cf5bd948","url":"https://www.youtube.com/watch?v=q1SU3fv1g90","title":"I Bought a Data Center Server Rack for My Apartment...","status":"queued","file_path":null,"error":null,"playlist_index":1,"created_at":"2026-08-04T10:56:23.085113"},{"id":"8bbfee57-2cc0-47c6-ae62-9f0b5e38774a","url":"https://www.youtube.com/watch?v=HTSSUbuOtOU","title":"I Finished My Server Rack!","status":"queued","file_path":null,"error":null,"playlist_index":2,"created_at":"2026-08-04T10:56:23.087313"}]}]

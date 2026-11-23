@@ -1,0 +1,66 @@
+download-worker-1  | 09:33:45 Worker rq:worker:4efe71f5a0e74f7db49858b641c4171e started with PID 1, version 1.16.2
+download-worker-1  | 09:33:45 Subscribing to channel rq:pubsub:4efe71f5a0e74f7db49858b641c4171e
+download-worker-1  | 09:33:45 *** Listening on downloads...
+download-worker-1  | 09:33:45 Cleaning registries for queue: downloads
+download-worker-1  | 09:47:15 Cleaning registries for queue: downloads
+download-worker-1  | 09:52:31 downloads: app.tasks.run_download('b5ec4771-bf8c-4c8b-94c9-e789416bbe28', 'https://www.youtube.com/watch?v=ZORciJStjdU') (b5ec4771-bf8c-4c8b-94c9-e789416bbe28)
+download-worker-1  | [trace] b5ec4771-bf8c-4c8b-94c9-e789416bbe28 start
+download-worker-1  | [trace] b5ec4771-bf8c-4c8b-94c9-e789416bbe28 committed status=running
+download-worker-1  | [trace] b5ec4771-bf8c-4c8b-94c9-e789416bbe28 sleeping 1.75s
+download-worker-1  | [trace] b5ec4771-bf8c-4c8b-94c9-e789416bbe28 outtmpl=/shows/small watch list/Season 01/small watch list S01E01 - %(title)s.%(ext)s
+download-worker-1  | [trace] b5ec4771-bf8c-4c8b-94c9-e789416bbe28 attempt 1 starting yt-dlp
+download-worker-1  | WARNING: [youtube] ZORciJStjdU: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+download-worker-1  | [trace] b5ec4771-bf8c-4c8b-94c9-e789416bbe28 yt-dlp finished, file_path=/shows/small watch list/Season 01/small watch list S01E01 - I can securely erase this computer from anywhere!.mp4
+download-worker-1  | [trace] b5ec4771-bf8c-4c8b-94c9-e789416bbe28 nfo written
+download-worker-1  | [trace] b5ec4771-bf8c-4c8b-94c9-e789416bbe28 about to commit final status=done
+download-worker-1  | [trace] b5ec4771-bf8c-4c8b-94c9-e789416bbe28 committed final status=done
+download-worker-1  | [trace] b5ec4771-bf8c-4c8b-94c9-e789416bbe28 playlist a7a0b6fd-ebd9-44e9-9276-2fde3ee936bc remaining=3
+download-worker-1  | [trace] b5ec4771-bf8c-4c8b-94c9-e789416bbe28 session closed, done
+download-worker-1  | 09:52:38 downloads: Job OK (b5ec4771-bf8c-4c8b-94c9-e789416bbe28)
+download-worker-1  | 09:52:38 Result is kept for 500 seconds
+download-worker-1  | 09:52:38 downloads: app.tasks.run_download('8f1c406e-46c6-48ea-9e5f-3181b2bfe029', 'https://www.youtube.com/watch?v=6f-XDgJw8b8') (8f1c406e-46c6-48ea-9e5f-3181b2bfe029)
+download-worker-1  | [trace] 8f1c406e-46c6-48ea-9e5f-3181b2bfe029 start
+download-worker-1  | [trace] 8f1c406e-46c6-48ea-9e5f-3181b2bfe029 committed status=running
+download-worker-1  | [trace] 8f1c406e-46c6-48ea-9e5f-3181b2bfe029 sleeping 1.87s
+download-worker-1  | [trace] 8f1c406e-46c6-48ea-9e5f-3181b2bfe029 outtmpl=/shows/small watch list/Season 01/small watch list S01E02 - %(title)s.%(ext)s
+download-worker-1  | [trace] 8f1c406e-46c6-48ea-9e5f-3181b2bfe029 attempt 1 starting yt-dlp
+download-worker-1  | WARNING: [youtube] 6f-XDgJw8b8: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+download-worker-1  | [trace] 8f1c406e-46c6-48ea-9e5f-3181b2bfe029 yt-dlp finished, file_path=/shows/small watch list/Season 01/small watch list S01E02 - The Pokémon Game You Haven’t Played - Pokemon Stern Pinball.mp4
+download-worker-1  | [trace] 8f1c406e-46c6-48ea-9e5f-3181b2bfe029 nfo written
+download-worker-1  | [trace] 8f1c406e-46c6-48ea-9e5f-3181b2bfe029 about to commit final status=done
+download-worker-1  | [trace] 8f1c406e-46c6-48ea-9e5f-3181b2bfe029 committed final status=done
+download-worker-1  | [trace] 8f1c406e-46c6-48ea-9e5f-3181b2bfe029 playlist a7a0b6fd-ebd9-44e9-9276-2fde3ee936bc remaining=2
+download-worker-1  | [trace] 8f1c406e-46c6-48ea-9e5f-3181b2bfe029 session closed, done
+download-worker-1  | 09:52:46 downloads: Job OK (8f1c406e-46c6-48ea-9e5f-3181b2bfe029)
+download-worker-1  | 09:52:46 Result is kept for 500 seconds
+download-worker-1  | 09:52:46 downloads: app.tasks.run_download('0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3', 'https://www.youtube.com/watch?v=0LWXxJIG5oU') (0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3)
+download-worker-1  | [trace] 0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3 start
+download-worker-1  | [trace] 0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3 committed status=running
+download-worker-1  | [trace] 0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3 sleeping 2.43s
+download-worker-1  | [trace] 0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3 outtmpl=/shows/small watch list/Season 01/small watch list S01E03 - %(title)s.%(ext)s
+download-worker-1  | [trace] 0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3 attempt 1 starting yt-dlp
+download-worker-1  | WARNING: [youtube] 0LWXxJIG5oU: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+download-worker-1  | [trace] 0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3 yt-dlp finished, file_path=/shows/small watch list/Season 01/small watch list S01E03 - the city called me after this video.mp4
+download-worker-1  | [trace] 0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3 nfo written
+download-worker-1  | [trace] 0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3 about to commit final status=done
+download-worker-1  | [trace] 0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3 committed final status=done
+download-worker-1  | [trace] 0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3 playlist a7a0b6fd-ebd9-44e9-9276-2fde3ee936bc remaining=1
+download-worker-1  | [trace] 0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3 session closed, done
+download-worker-1  | 09:52:56 downloads: Job OK (0c3f08b4-cbe2-47b1-9cb9-3f41e4d611c3)
+download-worker-1  | 09:52:56 Result is kept for 500 seconds
+download-worker-1  | 09:52:56 downloads: app.tasks.run_download('3b82b9f2-5430-43b6-8b2d-0b68bd605dfb', 'https://www.youtube.com/watch?v=bhNENKrWtZo') (3b82b9f2-5430-43b6-8b2d-0b68bd605dfb)
+download-worker-1  | [trace] 3b82b9f2-5430-43b6-8b2d-0b68bd605dfb start
+download-worker-1  | [trace] 3b82b9f2-5430-43b6-8b2d-0b68bd605dfb committed status=running
+download-worker-1  | [trace] 3b82b9f2-5430-43b6-8b2d-0b68bd605dfb sleeping 2.07s
+download-worker-1  | [trace] 3b82b9f2-5430-43b6-8b2d-0b68bd605dfb outtmpl=/shows/small watch list/Season 01/small watch list S01E04 - %(title)s.%(ext)s
+download-worker-1  | [trace] 3b82b9f2-5430-43b6-8b2d-0b68bd605dfb attempt 1 starting yt-dlp
+download-worker-1  | WARNING: [youtube] bhNENKrWtZo: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+download-worker-1  | [trace] 3b82b9f2-5430-43b6-8b2d-0b68bd605dfb yt-dlp finished, file_path=/shows/small watch list/Season 01/small watch list S01E04 - Every Pokémon I Would Eat.mp4
+download-worker-1  | [trace] 3b82b9f2-5430-43b6-8b2d-0b68bd605dfb nfo written
+download-worker-1  | [trace] 3b82b9f2-5430-43b6-8b2d-0b68bd605dfb about to commit final status=done
+download-worker-1  | [trace] 3b82b9f2-5430-43b6-8b2d-0b68bd605dfb committed final status=done
+download-worker-1  | [trace] 3b82b9f2-5430-43b6-8b2d-0b68bd605dfb playlist a7a0b6fd-ebd9-44e9-9276-2fde3ee936bc remaining=0
+download-worker-1  | [make_posters] failed to run: [Errno 2] No such file or directory: '/mnt/user/appdata/jellyfin-tools/bin/python3'
+download-worker-1  | [trace] 3b82b9f2-5430-43b6-8b2d-0b68bd605dfb session closed, done
+download-worker-1  | 09:53:03 downloads: Job OK (3b82b9f2-5430-43b6-8b2d-0b68bd605dfb)
+download-worker-1  | 09:53:03 Result is kept for 500 seconds

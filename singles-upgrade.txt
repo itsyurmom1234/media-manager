@@ -1,0 +1,12 @@
+ Container media-manager-postgres-1  Running
+ Container media-manager-redis-1  Running
+[19:06:01] File: I'm finally listening to you - Server Room Update 2023.mp4  (320p, 1257s)
+[19:06:01] Write check OK in 1 folder(s)
+ERROR: unable to download video data: HTTP Error 403: Forbidden
+[19:06:06]     transient error (ERROR: unable to download video data: HTTP Error 403: Forbidden), retrying in 20s
+[19:06:41] UPGRADED: 320p -> 960p
+ Container media-manager-postgres-1  Running
+ Container media-manager-redis-1  Running
+[19:07:08] File: This Upgrade is Dangerous - AMD $5,000 Ultimate Tech Upgrade.mp4  (360p, 1535s)
+[19:07:08] Write check OK in 1 folder(s)
+[19:07:22] UPGRADED: 360p -> 1080p

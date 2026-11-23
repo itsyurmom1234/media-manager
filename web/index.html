@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download queue</title>
+<style>
+  :root {
+    --bg: #14171c;
+    --surface: #1b2028;
+    --border: #2a303a;
+    --text: #e8eaed;
+    --text-dim: #8b94a3;
+    --amber: #e8a33d;
+    --green: #4caf7d;
+    --red: #e5626a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 48px 20px;
+  }
+  main { width: 100%; max-width: 640px; }
+
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+  .eyebrow {
+    font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin: 0 0 6px;
+  }
+  h1 {
+    font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+
+  .test-area {
+    text-align: right;
+    flex: none;
+  }
+  button.test-btn {
+    background: transparent;
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  button.test-btn:hover {
+    color: var(--text);
+    border-color: var(--text-dim);
+  }
+  button.test-btn:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  .test-status {
+    font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    font-size: 11px;
+    margin-top: 8px;
+    max-width: 220px;
+  }
+  .test-status.running { color: var(--text-dim); }
+  .test-status.pass { color: var(--green); }
+  .test-status.fail { color: var(--red); }
+
+  form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 32px;
+  }
+  input[type="url"] {
+    flex: 1;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    padding: 12px 14px;
+    font-size: 14px;
+    font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  input[type="url"]:focus {
+    outline: 2px solid var(--amber);
+    outline-offset: 1px;
+    border-color: transparent;
+  }
+  input[type="url"]::placeholder { color: var(--text-dim); }
+
+  button {
+    background: var(--amber);
+    color: #1a1300;
+    border: none;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  button:hover { filter: brightness(1.08); }
+  button:disabled { opacity: 0.5; cursor: default; }
+  button:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
+
+  #message {
+    font-size: 13px;
+    color: var(--red);
+    margin: -20px 0 20px;
+    min-height: 16px;
+  }
+
+  .toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+  }
+  button.secondary {
+    background: transparent;
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  button.secondary:hover {
+    color: var(--text);
+    border-color: var(--text-dim);
+    filter: none;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  .dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    flex: none;
+  }
+  .dot.queued { background: var(--text-dim); }
+  .dot.running {
+    background: var(--red);
+    animation: pulse 1.1s ease-in-out infinite;
+  }
+  .dot.done { background: var(--green); }
+  .dot.failed { background: var(--red); }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.25; }
+  }
+
+  .row-main { flex: 1; min-width: 0; }
+  .row-title {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .row-sub {
+    font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .status {
+    font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    flex: none;
+  }
+
+  .empty {
+    color: var(--text-dim);
+    font-size: 14px;
+    padding: 32px 0;
+    text-align: center;
+  }
+
+  details.playlist {
+    margin-bottom: 8px;
+  }
+  details.playlist > summary {
+    cursor: pointer;
+    list-style: none;
+  }
+  details.playlist > summary::-webkit-details-marker { display: none; }
+  .playlist-summary {
+    margin-bottom: 0;
+  }
+  .chevron {
+    flex: none;
+    color: var(--text-dim);
+    font-size: 11px;
+    transition: transform 0.15s ease;
+  }
+  details.playlist[open] .chevron {
+    transform: rotate(90deg);
+  }
+  .playlist-jobs {
+    padding: 8px 0 0 21px;
+    border-left: 1px solid var(--border);
+    margin-left: 20px;
+  }
+  .row.nested {
+    margin-bottom: 6px;
+    padding: 10px 14px;
+  }
+  .row.nested .row-title {
+    font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="header-row">
+    <div>
+      <p class="eyebrow">media-manager &middot; download service</p>
+      <h1>Download queue</h1>
+    </div>
+    <div class="test-area">
+      <button type="button" class="test-btn" id="test-btn">Test pipeline</button>
+      <div class="test-status" id="test-status"></div>
+    </div>
+  </div>
+
+  <form id="job-form">
+    <input type="url" id="url-input" placeholder="Paste a video URL&hellip;" required>
+    <button type="submit" id="submit-btn">Add</button>
+  </form>
+  <p id="message"></p>
+
+  <div class="toolbar">
+    <button type="button" id="clear-btn" class="secondary">Clear history</button>
+  </div>
+
+  <div id="jobs"></div>
+</main>
+
+<script>
+  const form = document.getElementById('job-form');
+  const input = document.getElementById('url-input');
+  const submitBtn = document.getElementById('submit-btn');
+  const clearBtn = document.getElementById('clear-btn');
+  const message = document.getElementById('message');
+  const jobsEl = document.getElementById('jobs');
+  const testBtn = document.getElementById('test-btn');
+  const testStatus = document.getElementById('test-status');
+  const openPlaylists = new Set();
+
+  function fileName(path) {
+    if (!path) return '';
+    return path.split('/').pop();
+  }
+
+  function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str || '';
+    return div.innerHTML;
+  }
+
+  function renderJobRow(job, padWidth) {
+    const idx = padWidth ? String(job.playlist_index).padStart(padWidth, '0') + '  ' : '';
+    const title = job.status === 'done' && job.file_path
+      ? fileName(job.file_path)
+      : (job.title || job.url || 'Unknown video');
+    const sub = job.status === 'failed' && job.error ? job.error : (job.url || '');
+    return `
+      <div class="row ${padWidth ? 'nested' : ''}">
+        <span class="dot ${job.status}"></span>
+        <div class="row-main">
+          <div class="row-title">${idx}${escapeHtml(title)}</div>
+          <div class="row-sub">${escapeHtml(job.status === 'done' ? (job.url || '') : sub)}</div>
+        </div>
+        <span class="status">${job.status}</span>
+      </div>
+    `;
+  }
+
+  function renderPlaylist(p) {
+    const width = String(p.total_count).length;
+    const doneCount = p.jobs.filter(j => j.status === 'done').length;
+    const failedCount = p.jobs.filter(j => j.status === 'failed').length;
+    const runningCount = p.jobs.filter(j => j.status === 'running').length;
+
+    let overallDot = 'queued';
+    if (runningCount > 0) overallDot = 'running';
+    else if (doneCount === p.total_count) overallDot = 'done';
+    else if (failedCount > 0) overallDot = 'failed';
+
+    const subParts = [`${doneCount}/${p.total_count} done`];
+    if (failedCount) subParts.push(`${failedCount} failed`);
+
+    const isOpen = openPlaylists.has(p.id);
+    const rows = p.jobs.map(j => renderJobRow(j, width)).join('');
+
+    return `
+      <details class="playlist" data-id="${p.id}" ${isOpen ? 'open' : ''}>
+        <summary class="row playlist-summary">
+          <span class="chevron">&#9656;</span>
+          <span class="dot ${overallDot}"></span>
+          <div class="row-main">
+            <div class="row-title">${escapeHtml(p.title)}</div>
+            <div class="row-sub">${escapeHtml(subParts.join(' \u00b7 '))}</div>
+          </div>
+          <span class="status">playlist</span>
+        </summary>
+        <div class="playlist-jobs">${rows}</div>
+      </details>
+    `;
+  }
+
+  function renderJobs(items) {
+    if (!items.length) {
+      jobsEl.innerHTML = '<p class="empty">No downloads yet &mdash; paste a link above to start one.</p>';
+      return;
+    }
+    jobsEl.innerHTML = items.map(item =>
+      item.type === 'playlist' ? renderPlaylist(item) : renderJobRow(item)
+    ).join('');
+
+    jobsEl.querySelectorAll('details.playlist').forEach(d => {
+      d.addEventListener('toggle', () => {
+        if (d.open) openPlaylists.add(d.dataset.id);
+        else openPlaylists.delete(d.dataset.id);
+      });
+    });
+  }
+
+  async function loadJobs() {
+    try {
+      const res = await fetch('/downloads/jobs');
+      if (!res.ok) return;
+      const items = await res.json();
+      renderJobs(items);
+    } catch (e) {
+      // silent - next poll will retry
+    }
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    message.textContent = '';
+    const url = input.value.trim();
+    if (!url) return;
+
+    submitBtn.disabled = true;
+    try {
+      const res = await fetch('/downloads/jobs', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ url })
+      });
+      if (!res.ok) throw new Error('Request failed');
+      input.value = '';
+      await loadJobs();
+    } catch (e) {
+      message.textContent = "Couldn't queue that download. Check the URL and try again.";
+    } finally {
+      submitBtn.disabled = false;
+    }
+  });
+
+  clearBtn.addEventListener('click', async () => {
+    if (!confirm('Clear all download history? This only clears the list, not any downloaded files.')) {
+      return;
+    }
+    clearBtn.disabled = true;
+    try {
+      await fetch('/downloads/jobs', { method: 'DELETE' });
+      await loadJobs();
+    } finally {
+      clearBtn.disabled = false;
+    }
+  });
+
+  async function pollSelfTest(jobId, playlistId) {
+    const maxTries = 60; // ~2 minutes at 2s intervals
+    for (let i = 0; i < maxTries; i++) {
+      const res = await fetch('/downloads/jobs');
+      const items = await res.json();
+
+      const job = items.find(it => it.type === 'job' && it.id === jobId);
+      const playlist = items.find(it => it.type === 'playlist' && it.id === playlistId);
+
+      const jobDone = job && (job.status === 'done' || job.status === 'failed');
+      const playlistDone = playlist && playlist.jobs.length > 0 &&
+        playlist.jobs.every(j => j.status === 'done' || j.status === 'failed');
+
+      if (jobDone && playlistDone) {
+        const failures = [];
+        if (job.status === 'failed') failures.push('video: ' + (job.error || 'failed'));
+        playlist.jobs.forEach((j, idx) => {
+          if (j.status === 'failed') failures.push(`playlist #${idx + 1}: ` + (j.error || 'failed'));
+        });
+        return failures.length ? { ok: false, error: failures.join('; ') } : { ok: true };
+      }
+      await new Promise(r => setTimeout(r, 2000));
+    }
+    return { ok: false, error: 'timed out waiting for test to finish' };
+  }
+
+  testBtn.addEventListener('click', async () => {
+    testBtn.disabled = true;
+    testStatus.textContent = 'Starting self-test\u2026';
+    testStatus.className = 'test-status running';
+
+    let jobId, playlistId;
+    try {
+      const res = await fetch('/downloads/self-test', { method: 'POST' });
+      if (!res.ok) throw new Error('Failed to start self-test');
+      ({ job_id: jobId, playlist_id: playlistId } = await res.json());
+
+      testStatus.textContent = 'Downloading test video + playlist\u2026';
+      const result = await pollSelfTest(jobId, playlistId);
+
+      if (result.ok) {
+        testStatus.textContent = 'Pipeline OK \u2713';
+        testStatus.className = 'test-status pass';
+      } else {
+        testStatus.textContent = 'Pipeline FAILED: ' + result.error;
+        testStatus.className = 'test-status fail';
+      }
+    } catch (e) {
+      testStatus.textContent = 'Self-test error: ' + e.message;
+      testStatus.className = 'test-status fail';
+    } finally {
+      if (jobId && playlistId) {
+        try {
+          await fetch('/downloads/self-test/cleanup', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ job_id: jobId, playlist_id: playlistId })
+          });
+        } catch (e) {
+          // cleanup failure isn't critical - rows just won't be gone yet
+        }
+        await loadJobs();
+      }
+      testBtn.disabled = false;
+      setTimeout(() => {
+        testStatus.textContent = '';
+        testStatus.className = 'test-status';
+      }, 8000);
+    }
+  });
+
+  loadJobs();
+  setInterval(loadJobs, 3000);
+</script>
+</body>
+</html>

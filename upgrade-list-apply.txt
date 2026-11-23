@@ -1,0 +1,106 @@
+=============== xczfdsafdsf
+ Container media-manager-postgres-1  Running
+ Container media-manager-redis-1  Running
+[13:03:29] Show folder: xczfdsafdsf
+[13:03:29] Probing 6 local files...
+[13:04:06] 6 of 6 files are below 1000p
+[13:04:14] Playlist 'xczfdsafdsf' has 6 entries
+[13:04:14] Matched 6, unmatched 0
+[13:04:14]   E  1  360p  [title]  x26A28DoT-w  Was I Wrong About the Macbook Neo?
+[13:04:14]   E  2  360p  [title]  MK12g18m8ns  Our Beef with iFixit, Brought to You by iFixit
+[13:04:14]   E  3  360p  [title]  Jnoj1B7F_pM  Mario Party with Too Many Rules
+[13:04:14]   E  4  360p  [title]  ivLvsTnp9fI  A Petabyte in the Palm of My Hand - Kioxia Factory Tour
+[13:04:14]   E  5  320p  [title]  1aBvGJHetUM  Building the Lowest Rated PC
+[13:04:14]   E  6  360p  [title]  pHEyjKfRhDA  Have Apps Ruined Dating?
+[13:04:14] Write check OK in 1 folder(s)
+[13:04:14] [1/6] xczfdsafdsf S01E01 - Was I Wrong About the Macbook Neo？.mp4
+[13:04:41]     UPGRADED: 640x360 -> 1920x1080
+[13:05:06] [2/6] xczfdsafdsf S01E02 - Our Beef with iFixit, Brought to You by iFixit.mp4
+[13:05:30]     UPGRADED: 640x360 -> 1920x1080
+[13:05:50] [3/6] xczfdsafdsf S01E03 - Mario Party with Too Many Rules.mp4
+[13:06:48]     UPGRADED: 640x360 -> 1920x1080
+[13:07:14] [4/6] xczfdsafdsf S01E04 - A Petabyte in the Palm of My Hand - Kioxia Factory Tour.mp4
+[13:07:32]     UPGRADED: 640x360 -> 1920x1080
+[13:07:55] [5/6] xczfdsafdsf S01E05 - Building the Lowest Rated PC.mp4
+[13:08:07]     UPGRADED: 640x320 -> 1920x960
+[13:08:36] [6/6] xczfdsafdsf S01E06 - Have Apps Ruined Dating？.mp4
+[13:10:07]     UPGRADED: 640x360 -> 1920x1080
+[13:10:07] DONE: 6 upgraded, 0 skipped, 0 errors, 0 unmatched (never touched)
+
+=============== small watch list
+ Container media-manager-redis-1  Running
+ Container media-manager-postgres-1  Running
+[13:10:26] Show folder: small watch list
+[13:10:26] Probing 4 local files...
+[13:10:38] 4 of 4 files are below 1000p
+[13:10:43] Playlist 'small watch list' has 4 entries
+[13:10:43] Matched 4, unmatched 0
+[13:10:43]   E  1  360p  [title]  ZORciJStjdU  I can securely erase this computer from anywhere!
+[13:10:43]   E  2  360p  [title]  6f-XDgJw8b8  The Pokémon Game You Haven’t Played - Pokemon Stern Pinball
+[13:10:43]   E  3  360p  [title]  0LWXxJIG5oU  the city called me after this video
+[13:10:43]   E  4  360p  [title]  bhNENKrWtZo  Every Pokémon I Would Eat
+[13:10:43] Write check OK in 1 folder(s)
+[13:10:43] [1/4] small watch list S01E01 - I can securely erase this computer from anywhere!.mp4
+[13:11:04]     UPGRADED: 640x360 -> 1920x1080
+[13:11:32] [2/4] small watch list S01E02 - The Pokémon Game You Haven’t Played - Pokemon Stern Pi
+[13:11:52]     UPGRADED: 640x360 -> 1920x1080
+[13:12:22] [3/4] small watch list S01E03 - the city called me after this video.mp4
+[13:12:35]     UPGRADED: 640x360 -> 1920x1080
+[13:12:57] [4/4] small watch list S01E04 - Every Pokémon I Would Eat.mp4
+[13:13:05]     UPGRADED: 640x360 -> 1920x1080
+[13:13:05] DONE: 4 upgraded, 0 skipped, 0 errors, 0 unmatched (never touched)
+
+=============== Random
+ Container media-manager-redis-1  Running
+ Container media-manager-postgres-1  Running
+[13:13:21] Show folder: Random
+[13:13:21] Probing 3 local files...
+[13:13:28] 3 of 3 files are below 1000p
+[13:13:31] Playlist 'Random' has 3 entries
+[13:13:31] Matched 3, unmatched 0
+[13:13:31]   E  1  360p  [title]  5li0FFNocu8  Pokemon SWORD : DanTDM Edition!
+[13:13:31]   E  2  360p  [title]  LE8tb_yv7CQ  THE DANTDM BOXING MATCH!!!
+[13:13:31]   E  3  360p  [title]  NFTemk99fLU  Pokémon UltraSun & UltraMoon - Ultra Necrozma Battle Music (
+[13:13:31] Write check OK in 1 folder(s)
+[13:13:31] [1/3] Random S01E01 - Pokemon SWORD ： DanTDM Edition!.mp4
+[13:14:07]     UPGRADED: 640x360 -> 1920x1080
+[13:14:29] [2/3] Random S01E02 - THE DANTDM BOXING MATCH!!!.mp4
+[13:14:44]     UPGRADED: 640x360 -> 1920x1080
+[13:15:08] [3/3] Random S01E03 - Pokémon UltraSun & UltraMoon - Ultra Necrozma Battle Music (HQ).
+[13:15:12]     UPGRADED: 640x360 -> 1920x1080
+[13:15:12] DONE: 3 upgraded, 0 skipped, 0 errors, 0 unmatched (never touched)
+
+=============== degoogle your life
+ Container media-manager-redis-1  Running
+ Container media-manager-postgres-1  Running
+[13:15:28] Show folder: degoogle your life
+[13:15:28] Probing 2 local files...
+[13:15:32] 2 of 2 files are below 1000p
+[13:15:35] Playlist 'degoogle your life' has 2 entries
+[13:15:35] Matched 2, unmatched 0
+[13:15:35]   E  1  320p  [title]  YnSv8ylLfPw  De-Google Your Life - Part 1: Start With Chrome
+[13:15:35]   E  2  360p  [title]  YaMc64IAC8g  DeGoogle Your Life Pt 2, Become Ad Free, 1080p (no freeze@ 1
+[13:15:35] Write check OK in 1 folder(s)
+[13:15:35] [1/2] degoogle your life S01E01 - De-Google Your Life - Part 1： Start With Chrome.mp4
+[13:15:44]     UPGRADED: 640x320 -> 1920x960
+[13:16:04] [2/2] degoogle your life S01E02 - DeGoogle Your Life Pt 2, Become Ad Free, 1080p (no f
+[13:16:59]     UPGRADED: 640x360 -> 1920x1080
+[13:16:59] DONE: 2 upgraded, 0 skipped, 0 errors, 0 unmatched (never touched)
+
+=============== Nice Rack
+ Container media-manager-redis-1  Running
+ Container media-manager-postgres-1  Running
+[13:17:25] Show folder: Nice Rack
+[13:17:25] Probing 2 local files...
+[13:17:35] 2 of 2 files are below 1000p
+[13:17:39] Playlist 'Nice Rack' has 3 entries
+[13:17:39] Matched 2, unmatched 0
+[13:17:39]   E  1  360p  [title]  q1SU3fv1g90  I Bought a Data Center Server Rack for My Apartment...
+[13:17:39]   E  2  360p  [title]  HTSSUbuOtOU  I Finished My Server Rack!
+[13:17:39] Write check OK in 1 folder(s)
+[13:17:39] [1/2] Nice Rack S01E01 - I Bought a Data Center Server Rack for My Apartment....mp4
+[13:17:55]     UPGRADED: 640x360 -> 1920x1080
+[13:18:19] [2/2] Nice Rack S01E02 - I Finished My Server Rack!.mp4
+[13:18:41]     UPGRADED: 640x360 -> 1920x1080
+[13:18:41] DONE: 2 upgraded, 0 skipped, 0 errors, 0 unmatched (never touched)
+

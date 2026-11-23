@@ -1,0 +1,551 @@
+ postgres Pulling 
+ gateway Pulling 
+ 55afa1ecc21d Already exists 
+ 55afa1ecc21d Already exists 
+ 420ce33c55a3 Pulling fs layer 
+ 61d45c44e964 Pulling fs layer 
+ ce1bfe44f3c0 Pulling fs layer 
+ 420ce33c55a3 Downloading  16.38kB/408.1kB
+ 420ce33c55a3 Verifying Checksum 
+ 420ce33c55a3 Download complete 
+ 420ce33c55a3 Extracting  32.77kB/408.1kB
+ ce1bfe44f3c0 Downloading     370B/370B
+ ce1bfe44f3c0 Verifying Checksum 
+ ce1bfe44f3c0 Download complete 
+ 61d45c44e964 Downloading  507.9kB/50.45MB
+ 0749aef11dca Pulling fs layer 
+ 2d3064b8615b Pulling fs layer 
+ ef6ab46d98b2 Pulling fs layer 
+ 689a434e3a86 Pulling fs layer 
+ 2f537278bc74 Pulling fs layer 
+ 4096c457dc0d Pulling fs layer 
+ c86ab38aa6db Pulling fs layer 
+ 713473b5b92b Pulling fs layer 
+ 7af924000309 Pulling fs layer 
+ ef6ab46d98b2 Waiting 
+ 689a434e3a86 Waiting 
+ cc7fa208b8a7 Pulling fs layer 
+ c86ab38aa6db Waiting 
+ 7af924000309 Waiting 
+ 713473b5b92b Waiting 
+ 2f537278bc74 Waiting 
+ cc7fa208b8a7 Waiting 
+ 4096c457dc0d Waiting 
+ 61d45c44e964 Downloading  2.049MB/50.45MB
+ 0749aef11dca Downloading     970B/970B
+ 0749aef11dca Download complete 
+ 0749aef11dca Extracting     970B/970B
+ 61d45c44e964 Downloading  3.583MB/50.45MB
+ 2d3064b8615b Downloading  15.78kB/900.3kB
+ 61d45c44e964 Downloading   5.12MB/50.45MB
+ 2d3064b8615b Downloading  179.6kB/900.3kB
+ 61d45c44e964 Downloading  6.148MB/50.45MB
+ 2d3064b8615b Downloading  458.1kB/900.3kB
+ ef6ab46d98b2 Downloading     173B/173B
+ ef6ab46d98b2 Verifying Checksum 
+ ef6ab46d98b2 Download complete 
+ 61d45c44e964 Downloading   7.17MB/50.45MB
+ 2d3064b8615b Downloading  769.4kB/900.3kB
+ 2d3064b8615b Downloading  900.3kB/900.3kB
+ 2d3064b8615b Verifying Checksum 
+ 2d3064b8615b Download complete 
+ 0749aef11dca Extracting     970B/970B
+ 61d45c44e964 Downloading    8.7MB/50.45MB
+ 420ce33c55a3 Extracting  65.54kB/408.1kB
+ 689a434e3a86 Downloading     116B/116B
+ 689a434e3a86 Verifying Checksum 
+ 689a434e3a86 Download complete 
+ 61d45c44e964 Downloading  10.24MB/50.45MB
+ 4096c457dc0d Downloading  3.496kB/9.62kB
+ 4096c457dc0d Verifying Checksum 
+ 2f537278bc74 Downloading  526.9kB/111.3MB
+ 61d45c44e964 Downloading  11.25MB/50.45MB
+ 61d45c44e964 Downloading  12.28MB/50.45MB
+ c86ab38aa6db Downloading     128B/128B
+ c86ab38aa6db Verifying Checksum 
+ c86ab38aa6db Download complete 
+ 2f537278bc74 Downloading  1.059MB/111.3MB
+ 61d45c44e964 Downloading  13.29MB/50.45MB
+ 2f537278bc74 Downloading  1.599MB/111.3MB
+ 713473b5b92b Downloading     167B/167B
+ 713473b5b92b Verifying Checksum 
+ 713473b5b92b Download complete 
+ 61d45c44e964 Downloading  14.31MB/50.45MB
+ 420ce33c55a3 Extracting  196.6kB/408.1kB
+ 2f537278bc74 Downloading   2.14MB/111.3MB
+ 61d45c44e964 Downloading  15.34MB/50.45MB
+ 7af924000309 Downloading  3.496kB/6.109kB
+ 7af924000309 Downloading  6.109kB/6.109kB
+ 7af924000309 Verifying Checksum 
+ 7af924000309 Download complete 
+ 420ce33c55a3 Extracting  229.4kB/408.1kB
+ 420ce33c55a3 Extracting  408.1kB/408.1kB
+ 420ce33c55a3 Extracting  408.1kB/408.1kB
+ 61d45c44e964 Downloading  16.35MB/50.45MB
+ 2f537278bc74 Downloading  2.681MB/111.3MB
+ cc7fa208b8a7 Downloading     184B/184B
+ cc7fa208b8a7 Verifying Checksum 
+ cc7fa208b8a7 Download complete 
+ 61d45c44e964 Downloading  17.37MB/50.45MB
+ 2f537278bc74 Downloading  3.221MB/111.3MB
+ 0749aef11dca Pull complete 
+ 61d45c44e964 Downloading  18.39MB/50.45MB
+ 2f537278bc74 Downloading  3.762MB/111.3MB
+ 61d45c44e964 Downloading  19.41MB/50.45MB
+ 2f537278bc74 Downloading  4.303MB/111.3MB
+ 2f537278bc74 Downloading  4.843MB/111.3MB
+ 61d45c44e964 Downloading  20.43MB/50.45MB
+ 2f537278bc74 Downloading  5.384MB/111.3MB
+ 61d45c44e964 Downloading  21.45MB/50.45MB
+ 2f537278bc74 Downloading  5.925MB/111.3MB
+ 61d45c44e964 Downloading  22.47MB/50.45MB
+ 2f537278bc74 Downloading  6.465MB/111.3MB
+ 61d45c44e964 Downloading  23.49MB/50.45MB
+ 2f537278bc74 Downloading  7.547MB/111.3MB
+ 2d3064b8615b Extracting  32.77kB/900.3kB
+ 61d45c44e964 Downloading  24.53MB/50.45MB
+ 2f537278bc74 Downloading  8.628MB/111.3MB
+ 61d45c44e964 Downloading  25.55MB/50.45MB
+ 2f537278bc74 Downloading   9.71MB/111.3MB
+ 61d45c44e964 Downloading  26.56MB/50.45MB
+ 2f537278bc74 Downloading  10.78MB/111.3MB
+ 61d45c44e964 Downloading  27.59MB/50.45MB
+ 2d3064b8615b Extracting  65.54kB/900.3kB
+ 2f537278bc74 Downloading  11.86MB/111.3MB
+ 420ce33c55a3 Pull complete 
+ 61d45c44e964 Downloading  28.62MB/50.45MB
+ 2f537278bc74 Downloading  12.94MB/111.3MB
+ 2d3064b8615b Extracting  163.8kB/900.3kB
+ 2d3064b8615b Extracting  900.3kB/900.3kB
+ 2d3064b8615b Extracting  900.3kB/900.3kB
+ 61d45c44e964 Downloading  29.64MB/50.45MB
+ 2f537278bc74 Downloading  14.02MB/111.3MB
+ 61d45c44e964 Downloading  30.16MB/50.45MB
+ 2f537278bc74 Downloading   15.1MB/111.3MB
+ 61d45c44e964 Downloading  30.67MB/50.45MB
+ 2f537278bc74 Downloading  16.18MB/111.3MB
+ 61d45c44e964 Downloading  31.68MB/50.45MB
+ 2f537278bc74 Downloading  17.26MB/111.3MB
+ 61d45c44e964 Downloading   32.2MB/50.45MB
+ 61d45c44e964 Downloading  32.71MB/50.45MB
+ 2f537278bc74 Downloading  18.34MB/111.3MB
+ 61d45c44e964 Downloading  33.22MB/50.45MB
+ 2f537278bc74 Downloading  19.41MB/111.3MB
+ 61d45c44e964 Downloading  33.74MB/50.45MB
+ 2f537278bc74 Downloading  20.49MB/111.3MB
+ 61d45c44e964 Downloading  34.25MB/50.45MB
+ 2f537278bc74 Downloading  21.57MB/111.3MB
+ 61d45c44e964 Downloading  34.76MB/50.45MB
+ 2f537278bc74 Downloading  22.63MB/111.3MB
+ 61d45c44e964 Downloading  35.28MB/50.45MB
+ 2d3064b8615b Pull complete 
+ 2f537278bc74 Downloading  23.71MB/111.3MB
+ 61d45c44e964 Downloading   35.8MB/50.45MB
+ 61d45c44e964 Downloading  36.31MB/50.45MB
+ 2f537278bc74 Downloading  24.78MB/111.3MB
+ 2f537278bc74 Downloading  25.86MB/111.3MB
+ 61d45c44e964 Downloading  36.83MB/50.45MB
+ ef6ab46d98b2 Extracting     173B/173B
+ 2f537278bc74 Downloading  26.94MB/111.3MB
+ 61d45c44e964 Downloading  37.34MB/50.45MB
+ 2f537278bc74 Downloading  28.02MB/111.3MB
+ 61d45c44e964 Downloading  37.85MB/50.45MB
+ 2f537278bc74 Downloading  29.08MB/111.3MB
+ 61d45c44e964 Downloading  38.36MB/50.45MB
+ ef6ab46d98b2 Extracting     173B/173B
+ 2f537278bc74 Downloading  30.15MB/111.3MB
+ 61d45c44e964 Downloading  38.87MB/50.45MB
+ 2f537278bc74 Downloading  31.22MB/111.3MB
+ 61d45c44e964 Downloading  39.38MB/50.45MB
+ 2f537278bc74 Downloading   32.3MB/111.3MB
+ 2f537278bc74 Downloading  33.38MB/111.3MB
+ 61d45c44e964 Downloading  39.89MB/50.45MB
+ 2f537278bc74 Downloading  34.45MB/111.3MB
+ 61d45c44e964 Downloading  40.41MB/50.45MB
+ 2f537278bc74 Downloading  35.52MB/111.3MB
+ 61d45c44e964 Downloading  40.92MB/50.45MB
+ 2f537278bc74 Downloading  36.57MB/111.3MB
+ 2f537278bc74 Downloading  37.65MB/111.3MB
+ 61d45c44e964 Downloading  41.44MB/50.45MB
+ 2f537278bc74 Downloading  38.73MB/111.3MB
+ ef6ab46d98b2 Pull complete 
+ 61d45c44e964 Downloading  41.96MB/50.45MB
+ 2f537278bc74 Downloading   39.8MB/111.3MB
+ 61d45c44e964 Downloading  42.47MB/50.45MB
+ 2f537278bc74 Downloading  40.87MB/111.3MB
+ 61d45c44e964 Downloading  42.98MB/50.45MB
+ 2f537278bc74 Downloading  41.94MB/111.3MB
+ 689a434e3a86 Extracting     116B/116B
+ 2f537278bc74 Downloading  43.02MB/111.3MB
+ 61d45c44e964 Downloading  43.49MB/50.45MB
+ 2f537278bc74 Downloading   44.1MB/111.3MB
+ 61d45c44e964 Downloading  44.01MB/50.45MB
+ 2f537278bc74 Downloading  45.17MB/111.3MB
+ 689a434e3a86 Extracting     116B/116B
+ 2f537278bc74 Downloading  46.23MB/111.3MB
+ 61d45c44e964 Downloading  44.51MB/50.45MB
+ 2f537278bc74 Downloading   47.3MB/111.3MB
+ 61d45c44e964 Downloading  45.03MB/50.45MB
+ 2f537278bc74 Downloading  48.37MB/111.3MB
+ 2f537278bc74 Downloading  49.45MB/111.3MB
+ 61d45c44e964 Downloading  45.54MB/50.45MB
+ 2f537278bc74 Downloading  50.52MB/111.3MB
+ 61d45c44e964 Downloading  46.05MB/50.45MB
+ 2f537278bc74 Downloading   51.6MB/111.3MB
+ 2f537278bc74 Downloading  52.67MB/111.3MB
+ 61d45c44e964 Downloading  46.56MB/50.45MB
+ 2f537278bc74 Downloading  53.74MB/111.3MB
+ 2f537278bc74 Downloading  54.81MB/111.3MB
+ 689a434e3a86 Pull complete 
+ 61d45c44e964 Downloading  47.07MB/50.45MB
+ 2f537278bc74 Downloading  55.89MB/111.3MB
+ 61d45c44e964 Downloading  47.58MB/50.45MB
+ 2f537278bc74 Downloading  56.95MB/111.3MB
+ 2f537278bc74 Downloading  58.01MB/111.3MB
+ 61d45c44e964 Downloading  48.09MB/50.45MB
+ 2f537278bc74 Downloading  59.09MB/111.3MB
+ 2f537278bc74 Downloading  60.15MB/111.3MB
+ 61d45c44e964 Downloading   48.6MB/50.45MB
+ 2f537278bc74 Downloading  61.21MB/111.3MB
+ 2f537278bc74 Downloading  62.28MB/111.3MB
+ 61d45c44e964 Downloading  49.11MB/50.45MB
+ 2f537278bc74 Downloading  63.35MB/111.3MB
+ 61d45c44e964 Downloading  49.62MB/50.45MB
+ 2f537278bc74 Downloading [============================>                      ]  64.41MB/111.3MB
+ 2f537278bc74 Downloading [=============================>                     ]  65.47MB/111.3MB
+ 61d45c44e964 Downloading [=================================================> ]  50.13MB/50.45MB
+ 2f537278bc74 Downloading [=============================>                     ]  66.55MB/111.3MB
+ 2f537278bc74 Downloading [==============================>                    ]  68.16MB/111.3MB
+ 61d45c44e964 Downloading [==================================================>]  50.45MB/50.45MB
+ 61d45c44e964 Verifying Checksum 
+ 61d45c44e964 Download complete 
+ 2f537278bc74 Downloading [===============================>                   ]  69.77MB/111.3MB
+ 2f537278bc74 Downloading [================================>                  ]  71.37MB/111.3MB
+ 2f537278bc74 Downloading [================================>                  ]  72.99MB/111.3MB
+ 2f537278bc74 Downloading [=================================>                 ]   74.6MB/111.3MB
+ 2f537278bc74 Downloading [==================================>                ]   76.2MB/111.3MB
+ 61d45c44e964 Extracting [>                                                  ]  524.3kB/50.45MB
+ 61d45c44e964 Extracting [====>                                              ]  4.719MB/50.45MB
+ 2f537278bc74 Downloading [==================================>                ]  77.81MB/111.3MB
+ 61d45c44e964 Extracting [========>                                          ]  8.389MB/50.45MB
+ 2f537278bc74 Downloading [===================================>               ]  79.41MB/111.3MB
+ 61d45c44e964 Extracting [============>                                      ]  12.58MB/50.45MB
+ 2f537278bc74 Downloading [====================================>              ]  81.01MB/111.3MB
+ 61d45c44e964 Extracting [================>                                  ]  16.25MB/50.45MB
+ 2f537278bc74 Downloading [=====================================>             ]  82.62MB/111.3MB
+ 61d45c44e964 Extracting [===================>                               ]   19.4MB/50.45MB
+ 61d45c44e964 Extracting [======================>                            ]  23.07MB/50.45MB
+ 2f537278bc74 Downloading [=====================================>             ]  84.24MB/111.3MB
+ 61d45c44e964 Extracting [===========================>                       ]  27.26MB/50.45MB
+ 2f537278bc74 Downloading [======================================>            ]  85.85MB/111.3MB
+ 61d45c44e964 Extracting [==============================>                    ]  30.93MB/50.45MB
+ 2f537278bc74 Downloading [=======================================>           ]  87.45MB/111.3MB
+ 61d45c44e964 Extracting [=================================>                 ]  34.08MB/50.45MB
+ 2f537278bc74 Downloading [========================================>          ]  89.04MB/111.3MB
+ 61d45c44e964 Extracting [======================================>            ]   38.8MB/50.45MB
+ 61d45c44e964 Extracting [===========================================>       ]  43.52MB/50.45MB
+ 2f537278bc74 Downloading [========================================>          ]  90.66MB/111.3MB
+ 61d45c44e964 Extracting [==============================================>    ]  47.19MB/50.45MB
+ 2f537278bc74 Downloading [=========================================>         ]  92.27MB/111.3MB
+ 61d45c44e964 Extracting [==================================================>]  50.45MB/50.45MB
+ 2f537278bc74 Downloading [==========================================>        ]  93.87MB/111.3MB
+ 2f537278bc74 Downloading [==========================================>        ]  95.47MB/111.3MB
+ 2f537278bc74 Downloading [===========================================>       ]  97.08MB/111.3MB
+ 2f537278bc74 Downloading [============================================>      ]  98.68MB/111.3MB
+ 2f537278bc74 Downloading [=============================================>     ]  100.3MB/111.3MB
+ 2f537278bc74 Downloading [=============================================>     ]  101.9MB/111.3MB
+ 2f537278bc74 Downloading [==============================================>    ]  103.5MB/111.3MB
+ 61d45c44e964 Pull complete 
+ 2f537278bc74 Downloading [===============================================>   ]  105.1MB/111.3MB
+ 2f537278bc74 Downloading [===============================================>   ]  106.7MB/111.3MB
+ 2f537278bc74 Downloading [================================================>  ]  108.3MB/111.3MB
+ ce1bfe44f3c0 Extracting [==================================================>]     370B/370B
+ 2f537278bc74 Downloading [=================================================> ]  109.9MB/111.3MB
+ 2f537278bc74 Verifying Checksum 
+ 2f537278bc74 Download complete 
+ ce1bfe44f3c0 Extracting [==================================================>]     370B/370B
+ 2f537278bc74 Extracting [>                                                  ]  557.1kB/111.3MB
+ 2f537278bc74 Extracting [==>                                                ]  4.456MB/111.3MB
+ 2f537278bc74 Extracting [====>                                              ]   9.47MB/111.3MB
+ 2f537278bc74 Extracting [======>                                            ]  14.48MB/111.3MB
+ 2f537278bc74 Extracting [========>                                          ]   19.5MB/111.3MB
+ 2f537278bc74 Extracting [===========>                                       ]  24.51MB/111.3MB
+ 2f537278bc74 Extracting [=============>                                     ]  29.52MB/111.3MB
+ 2f537278bc74 Extracting [===============>                                   ]  33.98MB/111.3MB
+ 2f537278bc74 Extracting [=================>                                 ]  38.99MB/111.3MB
+ ce1bfe44f3c0 Pull complete 
+ 2f537278bc74 Extracting [===================>                               ]  44.01MB/111.3MB
+ 2f537278bc74 Extracting [======================>                            ]  49.02MB/111.3MB
+ 2f537278bc74 Extracting [========================>                          ]  53.48MB/111.3MB
+ 2f537278bc74 Extracting [=========================>                         ]  56.26MB/111.3MB
+ 2f537278bc74 Extracting [==========================>                        ]   59.6MB/111.3MB
+ 2f537278bc74 Extracting [============================>                      ]  62.95MB/111.3MB
+ 2f537278bc74 Extracting [==============================>                    ]   67.4MB/111.3MB
+ 2f537278bc74 Extracting [================================>                  ]  71.86MB/111.3MB
+ 2f537278bc74 Extracting [==================================>                ]  76.32MB/111.3MB
+ 2f537278bc74 Extracting [====================================>              ]  80.77MB/111.3MB
+ 2f537278bc74 Extracting [=====================================>             ]  82.44MB/111.3MB
+ 2f537278bc74 Extracting [======================================>            ]  85.79MB/111.3MB
+ 2f537278bc74 Extracting [========================================>          ]  90.24MB/111.3MB
+ 2f537278bc74 Extracting [==========================================>        ]   94.7MB/111.3MB
+ 2f537278bc74 Extracting [============================================>      ]  98.04MB/111.3MB
+ 2f537278bc74 Extracting [==============================================>    ]  103.1MB/111.3MB
+ 2f537278bc74 Extracting [================================================>  ]  108.1MB/111.3MB
+ 2f537278bc74 Extracting [==================================================>]  111.3MB/111.3MB
+ 2f537278bc74 Pull complete 
+ gateway Pulled 
+ 4096c457dc0d Extracting [==================================================>]   9.62kB/9.62kB
+ 4096c457dc0d Extracting [==================================================>]   9.62kB/9.62kB
+ 4096c457dc0d Pull complete 
+ c86ab38aa6db Extracting [==================================================>]     128B/128B
+ c86ab38aa6db Extracting [==================================================>]     128B/128B
+ c86ab38aa6db Pull complete 
+ 713473b5b92b Extracting [==================================================>]     167B/167B
+ 713473b5b92b Extracting [==================================================>]     167B/167B
+ 713473b5b92b Pull complete 
+ 7af924000309 Extracting [==================================================>]  6.109kB/6.109kB
+ 7af924000309 Extracting [==================================================>]  6.109kB/6.109kB
+ 7af924000309 Pull complete 
+ cc7fa208b8a7 Extracting [==================================================>]     184B/184B
+ cc7fa208b8a7 Extracting [==================================================>]     184B/184B
+ cc7fa208b8a7 Pull complete 
+ postgres Pulled 
+#0 building with "default" instance using docker driver
+
+#1 [download-api internal] load build definition from Dockerfile
+#1 DONE 0.0s
+
+#1 [download-api internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 410B 0.0s done
+#1 DONE 6.9s
+
+#2 [download-worker internal] load build definition from Dockerfile
+#2 ...
+
+#3 [download-api internal] load metadata for docker.io/library/python:3.12-slim
+#3 ...
+
+#2 [download-worker internal] load build definition from Dockerfile
+#2 transferring dockerfile: 410B done
+#2 DONE 12.6s
+
+#3 [download-api internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 6.8s
+
+#4 [download-api internal] load .dockerignore
+#4 transferring context:
+#4 transferring context: 2B done
+#4 DONE 6.9s
+
+#5 [download-worker internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 8.0s
+
+#6 [download-api internal] load build context
+#6 DONE 0.0s
+
+#7 [download-api 1/6] FROM docker.io/library/python:3.12-slim@sha256:57cd7c3a7a273101a6485ba99423ee568157882804b1124b4dd04266317710de
+#7 DONE 0.0s
+
+#6 [download-api internal] load build context
+#6 ...
+
+#7 [download-worker 1/6] FROM docker.io/library/python:3.12-slim@sha256:57cd7c3a7a273101a6485ba99423ee568157882804b1124b4dd04266317710de
+#7 DONE 0.0s
+
+#8 [download-worker internal] load build context
+#8 transferring context:
+#8 transferring context: 11.71kB 0.2s done
+#8 ...
+
+#6 [download-api internal] load build context
+#6 transferring context: 11.71kB done
+#6 ...
+
+#8 [download-worker internal] load build context
+#8 DONE 6.8s
+
+#6 [download-api internal] load build context
+#6 ...
+
+#9 [download-worker 2/6] RUN apt-get update     && apt-get install -y --no-install-recommends ffmpeg     && rm -rf /var/lib/apt/lists/*
+#9 CACHED
+
+#10 [download-worker 3/6] WORKDIR /app
+#10 CACHED
+
+#9 [download-api 2/6] RUN apt-get update     && apt-get install -y --no-install-recommends ffmpeg     && rm -rf /var/lib/apt/lists/*
+#9 CACHED
+
+#10 [download-api 3/6] WORKDIR /app
+#10 CACHED
+
+#11 [download-worker 4/6] COPY requirements.txt .
+#11 ...
+
+#6 [download-api internal] load build context
+#6 DONE 10.7s
+
+#11 [download-worker 4/6] COPY requirements.txt .
+#11 DONE 6.3s
+
+#12 [download-worker 5/6] RUN pip install --no-cache-dir -r requirements.txt
+#12 23.41 Collecting fastapi==0.115.0 (from -r requirements.txt (line 1))
+#12 23.51   Downloading fastapi-0.115.0-py3-none-any.whl.metadata (27 kB)
+#12 23.57 Collecting uvicorn==0.30.6 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+#12 23.59   Downloading uvicorn-0.30.6-py3-none-any.whl.metadata (6.6 kB)
+#12 23.63 Collecting rq==1.16.2 (from -r requirements.txt (line 3))
+#12 23.65   Downloading rq-1.16.2-py3-none-any.whl.metadata (5.7 kB)
+#12 23.70 Collecting redis==5.0.8 (from -r requirements.txt (line 4))
+#12 23.72   Downloading redis-5.0.8-py3-none-any.whl.metadata (9.2 kB)
+#12 24.03 Collecting sqlalchemy==2.0.35 (from -r requirements.txt (line 5))
+#12 24.05   Downloading SQLAlchemy-2.0.35-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.6 kB)
+#12 24.14 Collecting psycopg2-binary==2.9.9 (from -r requirements.txt (line 6))
+#12 24.16   Downloading psycopg2_binary-2.9.9-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.4 kB)
+#12 24.27 Collecting yt-dlp==2026.7.4 (from -r requirements.txt (line 7))
+#12 24.29   Downloading yt_dlp-2026.7.4-py3-none-any.whl.metadata (183 kB)
+#12 24.46 Collecting pydantic==2.9.2 (from -r requirements.txt (line 8))
+#12 24.49   Downloading pydantic-2.9.2-py3-none-any.whl.metadata (149 kB)
+#12 24.55 Collecting starlette<0.39.0,>=0.37.2 (from fastapi==0.115.0->-r requirements.txt (line 1))
+#12 24.58   Downloading starlette-0.38.6-py3-none-any.whl.metadata (6.0 kB)
+#12 24.66 Collecting typing-extensions>=4.8.0 (from fastapi==0.115.0->-r requirements.txt (line 1))
+#12 24.68   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#12 24.72 Collecting click>=7.0 (from uvicorn==0.30.6->uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+#12 24.74   Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
+#12 24.77 Collecting h11>=0.8 (from uvicorn==0.30.6->uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+#12 24.79   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+#12 24.96 Collecting greenlet!=0.4.17 (from sqlalchemy==2.0.35->-r requirements.txt (line 5))
+#12 24.98   Downloading greenlet-3.5.4-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+#12 25.03 Collecting annotated-types>=0.6.0 (from pydantic==2.9.2->-r requirements.txt (line 8))
+#12 25.05   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+#12 25.68 Collecting pydantic-core==2.23.4 (from pydantic==2.9.2->-r requirements.txt (line 8))
+#12 25.71   Downloading pydantic_core-2.23.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+#12 25.76 Collecting httptools>=0.5.0 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+#12 25.78   Downloading httptools-0.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (3.5 kB)
+#12 25.81 Collecting python-dotenv>=0.13 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+#12 25.83   Downloading python_dotenv-1.2.2-py3-none-any.whl.metadata (27 kB)
+#12 25.91 Collecting pyyaml>=5.1 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+#12 25.93   Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+#12 25.99 Collecting uvloop!=0.15.0,!=0.15.1,>=0.14.0 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+#12 26.01   Downloading uvloop-0.22.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (4.9 kB)
+#12 26.10 Collecting watchfiles>=0.13 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+#12 26.12   Downloading watchfiles-1.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+#12 26.23 Collecting websockets>=10.4 (from uvicorn[standard]==0.30.6->-r requirements.txt (line 2))
+#12 26.25   Downloading websockets-16.1.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.8 kB)
+#12 26.30 Collecting anyio<5,>=3.4.0 (from starlette<0.39.0,>=0.37.2->fastapi==0.115.0->-r requirements.txt (line 1))
+#12 26.32   Downloading anyio-4.14.2-py3-none-any.whl.metadata (4.6 kB)
+#12 26.37 Collecting idna>=2.8 (from anyio<5,>=3.4.0->starlette<0.39.0,>=0.37.2->fastapi==0.115.0->-r requirements.txt (line 1))
+#12 26.39   Downloading idna-3.18-py3-none-any.whl.metadata (6.1 kB)
+#12 26.42 Downloading fastapi-0.115.0-py3-none-any.whl (94 kB)
+#12 26.45 Downloading uvicorn-0.30.6-py3-none-any.whl (62 kB)
+#12 26.49 Downloading rq-1.16.2-py3-none-any.whl (90 kB)
+#12 26.52 Downloading redis-5.0.8-py3-none-any.whl (255 kB)
+#12 26.56 Downloading SQLAlchemy-2.0.35-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.2 MB)
+#12 26.84    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 11.7 MB/s eta 0:00:00
+#12 26.87 Downloading psycopg2_binary-2.9.9-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+#12 27.13    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 11.8 MB/s eta 0:00:00
+#12 27.15 Downloading yt_dlp-2026.7.4-py3-none-any.whl (3.2 MB)
+#12 27.42    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 11.8 MB/s eta 0:00:00
+#12 27.45 Downloading pydantic-2.9.2-py3-none-any.whl (434 kB)
+#12 27.51 Downloading pydantic_core-2.23.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+#12 27.69    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 11.8 MB/s eta 0:00:00
+#12 27.72 Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+#12 27.74 Downloading click-8.4.2-py3-none-any.whl (119 kB)
+#12 27.77 Downloading greenlet-3.5.4-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (621 kB)
+#12 27.83    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 621.5/621.5 kB 11.8 MB/s eta 0:00:00
+#12 27.85 Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+#12 27.88 Downloading httptools-0.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (523 kB)
+#12 27.95 Downloading python_dotenv-1.2.2-py3-none-any.whl (22 kB)
+#12 27.98 Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+#12 28.05    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 11.8 MB/s eta 0:00:00
+#12 28.07 Downloading starlette-0.38.6-py3-none-any.whl (71 kB)
+#12 28.10 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#12 28.12 Downloading uvloop-0.22.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (4.4 MB)
+#12 28.50    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 11.8 MB/s eta 0:00:00
+#12 28.53 Downloading watchfiles-1.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (456 kB)
+#12 28.59 Downloading websockets-16.1.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (187 kB)
+#12 28.63 Downloading anyio-4.14.2-py3-none-any.whl (125 kB)
+#12 28.67 Downloading idna-3.18-py3-none-any.whl (65 kB)
+#12 28.85 Installing collected packages: yt-dlp, websockets, uvloop, typing-extensions, redis, pyyaml, python-dotenv, psycopg2-binary, idna, httptools, h11, greenlet, click, annotated-types, uvicorn, sqlalchemy, rq, pydantic-core, anyio, watchfiles, starlette, pydantic, fastapi
+#12 52.67 Successfully installed annotated-types-0.8.0 anyio-4.14.2 click-8.4.2 fastapi-0.115.0 greenlet-3.5.4 h11-0.16.0 httptools-0.8.0 idna-3.18 psycopg2-binary-2.9.9 pydantic-2.9.2 pydantic-core-2.23.4 python-dotenv-1.2.2 pyyaml-6.0.3 redis-5.0.8 rq-1.16.2 sqlalchemy-2.0.35 starlette-0.38.6 typing-extensions-4.16.0 uvicorn-0.30.6 uvloop-0.22.1 watchfiles-1.2.0 websockets-16.1.1 yt-dlp-2026.7.4
+#12 52.67 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#12 52.81 
+#12 52.81 [notice] A new release of pip is available: 25.0.1 -> 26.1.2
+#12 52.81 [notice] To update, run: pip install --upgrade pip
+#12 DONE 54.5s
+
+#13 [download-worker 6/6] COPY app ./app
+#13 DONE 8.9s
+
+#14 [download-api] exporting to image
+#14 exporting layers
+#14 exporting layers 7.6s done
+#14 writing image sha256:12f254658bd92834906014a9bff5d27aab595d676d59461ac0704ca96f405705
+#14 ...
+
+#15 [download-worker] exporting to image
+#15 exporting layers 7.1s done
+#15 writing image sha256:8e8962995e0d4d273d49be908e33c5a1bafa5ad09102fc683a83e5b2d67dee28 0.2s done
+#15 naming to docker.io/library/media-manager-download-worker
+#15 ...
+
+#14 [download-api] exporting to image
+#14 writing image sha256:12f254658bd92834906014a9bff5d27aab595d676d59461ac0704ca96f405705 0.7s done
+#14 naming to docker.io/library/media-manager-download-api
+#14 naming to docker.io/library/media-manager-download-api 0.4s done
+#14 ...
+
+#15 [download-worker] exporting to image
+#15 naming to docker.io/library/media-manager-download-worker 0.9s done
+#15 DONE 11.1s
+
+#14 [download-api] exporting to image
+#14 DONE 12.3s
+
+#16 [download-worker] resolving provenance for metadata file
+#16 ...
+
+#17 [download-api] resolving provenance for metadata file
+#17 DONE 1.8s
+
+#16 [download-worker] resolving provenance for metadata file
+#16 DONE 4.0s
+ Network media-manager_media-net  Creating
+ Network media-manager_media-net  Created
+ Volume "media-manager_redis-data"  Creating
+ Volume "media-manager_redis-data"  Created
+ Volume "media-manager_postgres-data"  Creating
+ Volume "media-manager_postgres-data"  Created
+ Container media-manager-web-1  Creating
+ Container media-manager-gateway-1  Creating
+ Container media-manager-redis-1  Creating
+ Container media-manager-postgres-1  Creating
+ Container media-manager-gateway-1  Created
+ Container media-manager-postgres-1  Created
+ Container media-manager-redis-1  Created
+ Container media-manager-download-worker-1  Creating
+ Container media-manager-download-api-1  Creating
+ Container media-manager-web-1  Created
+ Container media-manager-download-worker-1  Created
+ Container media-manager-download-api-1  Created
+ Container media-manager-web-1  Starting
+ Container media-manager-postgres-1  Starting
+ Container media-manager-gateway-1  Starting
+ Container media-manager-redis-1  Starting
+ Container media-manager-web-1  Started
+ Container media-manager-postgres-1  Started
+ Container media-manager-gateway-1  Started
+ Container media-manager-redis-1  Started
+ Container media-manager-postgres-1  Waiting
+ Container media-manager-redis-1  Waiting
+ Container media-manager-redis-1  Waiting
+ Container media-manager-postgres-1  Waiting
+ Container media-manager-redis-1  Healthy
+ Container media-manager-redis-1  Healthy
+ Container media-manager-postgres-1  Healthy
+ Container media-manager-postgres-1  Healthy
+ Container media-manager-download-worker-1  Starting
+ Container media-manager-download-api-1  Starting
+ Container media-manager-download-api-1  Started
+ Container media-manager-download-worker-1  Started

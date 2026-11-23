@@ -1,0 +1,9 @@
+--- host view ---
+drwxr-xr-x 1 scalable-falinks users    75 Sep 26 17:50 /mnt/user/LinuxIsos/yt-shows/Descendants⧸ZOMBIES⧸Camp\ Rock\ Worlds\ Collide\ Tour\ 2026/
+drwxr-xr-x 1 scalable-falinks users 24576 Oct 11 04:23 /mnt/user/LinuxIsos/yt-shows/Descendants⧸ZOMBIES⧸Camp\ Rock\ Worlds\ Collide\ Tour\ 2026/Season\ 01/
+--- as the container user ---
+ Container media-manager-postgres-1  Running
+ Container media-manager-redis-1  Running
+uid=99 gid=100(users) groups=100(users)
+drwxr-xr-x 1 1000 users 24576 Oct 11 03:23 /shows/Descendants⧸ZOMBIES⧸Camp Rock Worlds Collide Tour 2026/Season 01
+touch: cannot touch '/shows/Descendants⧸ZOMBIES⧸Camp Rock Worlds Collide Tour 2026/Season 01/.writetest': Permission denied
